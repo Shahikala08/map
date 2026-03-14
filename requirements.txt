@@ -1,0 +1,7 @@
+pynput
+psutil
+pygetwindow
+pandas
+numpy
+streamlit>=1.32
+plotly>=5.18

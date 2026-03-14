@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-03-14T01:37:47.612164",
+  "session_start": "2026-03-14T01:37:38.078000",
+  "session_end": "2026-03-14T01:37:38.078000",
+  "session_minutes": 0.0,
+  "wall_clock_minutes": 0.0,
+  "total_events": 1,
+  "total_apps_used": 1,
+  "deep_work_minutes": 0.0,
+  "distraction_minutes": 0.0,
+  "idle_minutes": 0.0,
+  "context_switches": 0,
+  "switches_per_hour": 0.0,
+  "top_app": "dashboard.py - attention_pro - Visual Studio Code",
+  "top_attention_score": 35.0,
+  "overall_focus_score": 0.0,
+  "interaction_totals": {
+    "keystrokes": 0,
+    "clicks": 1,
+    "scroll_ticks": 0,
+    "switches": 0
+  },
+  "event_totals": {
+    "mouse_click": 1
+  },
+  "focus_breakdown": {
+    "deep_work_pct": 0.0,
+    "distraction_pct": 0.0,
+    "idle_pct": 0.0
+  },
+  "session_meta": {}
+}

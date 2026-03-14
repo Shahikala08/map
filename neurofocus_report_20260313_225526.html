@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroFocus Attention Report</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+            background: #fff; color: #1a2035; line-height: 1.6; }
+
+    /* Header */
+    .header { background: linear-gradient(135deg, #03050a 0%, #0d1425 50%, #1a2540 100%);
+               color: #e8edf5; padding: 3rem 4rem 2.5rem; position: relative; overflow: hidden; }
+    .header::before { content:''; position:absolute; top:-50px; right:-50px; width:300px; height:300px;
+                       background:radial-gradient(circle, rgba(79,156,249,0.1) 0%, transparent 70%); }
+    .header-badge { display:inline-block; background:rgba(79,156,249,0.15);
+                     border:1px solid rgba(79,156,249,0.3); color:#4f9cf9; font-size:.7rem;
+                     font-weight:700; text-transform:uppercase; letter-spacing:.2em;
+                     padding:.25rem .8rem; border-radius:99px; margin-bottom:.8rem; }
+    .header-title { font-size:2.5rem; font-weight:800; letter-spacing:-.03em; margin-bottom:.6rem;
+                     background:linear-gradient(135deg, #e8edf5, #8a9bb8);
+                     -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .header-meta { font-size:.88rem; color:#8a9bb8; }
+    .header-meta strong { color:#e8edf5; }
+    .score-badge { display:inline-block; background:#dc2626; color:white; font-size:.85rem;
+                    font-weight:700; padding:.2rem .7rem; border-radius:8px; margin-left:.5rem; }
+
+    /* Layout */
+    .container { max-width:1100px; margin:0 auto; padding:2.5rem 3rem; }
+
+    /* Section */
+    .section { margin-bottom:3rem; }
+    .section-header { display:flex; align-items:center; gap:.8rem; margin-bottom:1.5rem;
+                        padding-bottom:.7rem; border-bottom:2px solid #e8edf5; }
+    .section-icon { font-size:1.3rem; }
+    .section-title { font-size:1rem; font-weight:800; text-transform:uppercase;
+                      letter-spacing:.12em; color:#344563; }
+
+    /* KPI Grid */
+    .kpi-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; margin-bottom:1.5rem; }
+    .kpi-card { background:#f8f9fa; border:1px solid #e8edf5; border-radius:16px;
+                 padding:1.3rem; position:relative; overflow:hidden; }
+    .kpi-card::before { content:''; position:absolute; top:0; left:0; right:0; height:3px;
+                          background:linear-gradient(90deg,#4f9cf9,#9b8ef4);
+                          border-radius:16px 16px 0 0; }
+    .kpi-label { font-size:.62rem; font-weight:700; text-transform:uppercase;
+                  letter-spacing:.13em; color:#8a9bb8; margin-bottom:.4rem; }
+    .kpi-value { font-size:1.9rem; font-weight:800; color:#1a2035;
+                  font-family:'Consolas','Courier New',monospace; letter-spacing:-.02em; }
+    .kpi-foot  { font-size:.72rem; color:#aaa; margin-top:.3rem; }
+
+    /* Insight */
+    .insight { background:#f0f7ff; border-left:3px solid #4f9cf9; border-radius:0 10px 10px 0;
+                padding:.85rem 1.1rem; margin-bottom:.7rem; font-size:.88rem; color:#344563; }
+    .insight.green { background:#f0fdf4; border-left-color:#16a34a; }
+    .insight.red   { background:#fef2f2; border-left-color:#dc2626; }
+    .insight.amber { background:#fffbeb; border-left-color:#d97706; }
+
+    /* Charts */
+    .chart-box { background:#f8f9fa; border-radius:14px; padding:1rem;
+                  margin-bottom:1.3rem; border:1px solid #e8edf5; overflow:hidden; }
+
+    /* Tables */
+    .data-table { width:100%; border-collapse:collapse; font-size:.84rem; }
+    .data-table thead th { background:#1a2035; color:#e8edf5; padding:.75rem 1rem;
+                             text-align:left; font-size:.7rem; text-transform:uppercase;
+                             letter-spacing:.1em; font-weight:600; }
+    .data-table tbody td { padding:.6rem 1rem; border-bottom:1px solid #e8edf5; color:#344563; }
+    .data-table tbody tr:hover { background:#f8f9fa; }
+
+    /* Badges */
+    .badge { display:inline-block; padding:.18rem .65rem; border-radius:99px;
+              font-size:.72rem; font-weight:700; }
+    .badge-green { background:#dcfce7; color:#16a34a; }
+    .badge-red   { background:#fee2e2; color:#dc2626; }
+    .badge-blue  { background:#dbeafe; color:#2563eb; }
+
+    /* Footer */
+    .footer { background:#f8f9fa; border-top:1px solid #e8edf5; padding:1.5rem 3rem;
+               text-align:center; font-size:.78rem; color:#aaa; margin-top:2rem; }
+
+    /* Print */
+    @media print {
+      .header { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+      .kpi-card, .chart-box { break-inside:avoid; }
+      body { font-size:11pt; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-badge">NeuroFocus · Attention Intelligence</div>
+  <div class="header-title">NeuroFocus Attention Report</div>
+  <div class="header-meta">
+    <strong>Session Date:</strong> 2026-03-13 &nbsp;·&nbsp;
+    <strong>Active Time:</strong> 0m &nbsp;·&nbsp;
+    <strong>Wall-clock:</strong> 0m &nbsp;·&nbsp;
+    <strong>Generated:</strong> 2026-03-13 22:55 &nbsp;·&nbsp;
+    <strong>Focus Score:</strong> 2/100
+    <span class="score-badge">Needs Work</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- OVERVIEW METRICS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">📊</span>
+      <div class="section-title">Overview Metrics</div>
+    </div>
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">Active Monitoring Time</div>
+        <div class="kpi-value">0m</div>
+        <div class="kpi-foot">Capped active time (idle gaps ≤60 s)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Wall-clock Span</div>
+        <div class="kpi-value">0m</div>
+        <div class="kpi-foot">Total elapsed time</div>
+      </div>
+      <div class="kpi-card" style="background:#f0fdf4">
+        <div class="kpi-label">Focused Productive Time</div>
+        <div class="kpi-value" style="color:#16a34a">0m</div>
+        <div class="kpi-foot">Deep work applications</div>
+      </div>
+      <div class="kpi-card" style="background:#fef2f2">
+        <div class="kpi-label">Time on Off-Task Apps</div>
+        <div class="kpi-value" style="color:#dc2626">0m</div>
+        <div class="kpi-foot">Distraction applications</div>
+      </div>
+      <div class="kpi-card" style="background:#f5f3ff">
+        <div class="kpi-label">Focus Score</div>
+        <div class="kpi-value" style="color:#7c3aed">2/100</div>
+        <div class="kpi-foot">Needs Work</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Real Keystrokes</div>
+        <div class="kpi-value">0</div>
+        <div class="kpi-foot">Burst-decoded keystroke count</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Actual Scroll Ticks</div>
+        <div class="kpi-value">0</div>
+        <div class="kpi-foot">Real scroll distance</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Window Switches</div>
+        <div class="kpi-value">0</div>
+        <div class="kpi-foot">0.0/hr rate</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOCUS ANALYSIS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🎯</span>
+      <div class="section-title">Focus Analysis</div>
+    </div>
+    <div class="insight green">
+      <strong>Deep Work Ratio:</strong> 100.0% of session on productive applications —
+      0m of focused work time.
+    </div>
+    <div class="insight green">
+      <strong>Distraction Level:</strong> 0.0% on off-task applications —
+      0m of distraction time.
+    </div>
+    <div class="insight">
+      <strong>Idle Time:</strong> 0.0% inactive —
+      0m in idle periods.
+    </div>
+    
+        <table class="data-table">
+          <thead>
+            <tr><th>Application</th><th>Type</th><th>Time</th><th>Share</th>
+                <th>Keystrokes</th><th>Clicks</th><th>Scrolls</th><th>Score</th></tr>
+          </thead>
+          <tbody><tr><td>dashboard.py - attention_pro</td><td><span class='badge badge-green'>deep work</span></td><td>0.0 min</td><td>100.0%</td><td>0</td><td>2</td><td>0</td><td>40/100</td></tr></tbody>
+        </table>
+  </div>
+
+  <!-- CHARTS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">📈</span>
+      <div class="section-title">Activity Charts</div>
+    </div>
+    <div class="chart-box"><div>                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.4.0.min.js" integrity="sha256-KEmPoupLpFyGMyGAiOsiNDbKDKAvxXAn/W+oQa0ZAfk=" crossorigin="anonymous"></script>                <div id="f3dab8d5-f225-44c8-8b1b-169365fb91f6" class="plotly-graph-div" style="height:300px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("f3dab8d5-f225-44c8-8b1b-169365fb91f6")) {                    Plotly.newPlot(                        "f3dab8d5-f225-44c8-8b1b-169365fb91f6",                        [{"fill":"tozeroy","fillcolor":"rgba(79,156,249,0.15)","hovertemplate":"\u003cb\u003e%{x|%H:%M}\u003c\u002fb\u003e\u003cbr\u003eEvents: %{y}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#4f9cf9","shape":"spline","smoothing":0.7,"width":2.5},"mode":"lines","name":"Activity Density","x":["2026-03-13T22:55:00.000000000"],"y":{"dtype":"i1","bdata":"BQ=="},"type":"scatter"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"font":{"color":"#344563","family":"'Segoe UI', Arial, sans-serif"},"margin":{"l":50,"r":30,"t":55,"b":55},"title":{"font":{"size":14},"text":"Activity Density Over Time (5-min buckets)"},"xaxis":{"title":{"text":"Time"},"gridcolor":"#e8edf5"},"yaxis":{"title":{"text":"Events \u002f 5 min"},"gridcolor":"#e8edf5"},"paper_bgcolor":"white","plot_bgcolor":"#f8f9fa","height":300},                        {"responsive": true}                    )                };            </script>        </div></div>
+<div class="chart-box"><p><em>Chart error: plotly.graph_objs._figure.Figure.update_layout() got multiple values for keyword argument 'margin'</em></p></div>
+
+  </div>
+
+  <!-- CONTEXT SWITCHING -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🔀</span>
+      <div class="section-title">Context Switching Insights</div>
+    </div>
+    <div class="insight green">
+      <strong>Switch Rate:</strong> 0.0 switches/hr — ✅ Good continuity. Healthy context management.
+    </div>
+    <div class="insight">
+      <strong>Total:</strong> 0 window switches across
+      0m of active session time.
+    </div>
+    <h4 style="font-size:.82rem;color:#8a9bb8;text-transform:uppercase;letter-spacing:.1em;
+               margin:1.2rem 0 .6rem">Most Frequently Switched To</h4>
+    <p><em>No switch data available.</em></p>
+  </div>
+
+  <!-- RAW INTERACTION SUMMARY -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🖥</span>
+      <div class="section-title">Raw Interaction Summary (last 100 events)</div>
+    </div>
+    
+        <table class="data-table">
+          <thead><tr><th>Timestamp</th><th>Event Type</th><th>Application</th></tr></thead>
+          <tbody><tr><td>22:55:13</td><td>mouse_click</td><td>dashboard.py - attention_pro - Visual Studio Code</td></tr><tr><td>22:55:14</td><td>mouse_click</td><td>dashboard.py - attention_pro - Visual Studio Code</td></tr><tr><td>22:55:20</td><td>mouse_click</td><td>dashboard.py - attention_pro - Visual Studio Code</td></tr><tr><td>22:55:21</td><td>mouse_click</td><td>dashboard.py - attention_pro - Visual Studio Code</td></tr><tr><td>22:55:22</td><td>navigation</td><td>dashboard.py - attention_pro - Visual Studio Code</td></tr></tbody>
+        </table>
+  </div>
+
+</div>
+
+<div class="footer">
+  <strong>NeuroFocus v4.2</strong> &nbsp;·&nbsp; 100% Offline &nbsp;·&nbsp;
+  No cloud · No telemetry · No surveillance &nbsp;·&nbsp;
+  Report generated 2026-03-13 22:55
+</div>
+
+</body>
+</html>

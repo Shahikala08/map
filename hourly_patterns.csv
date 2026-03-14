@@ -1,0 +1,2 @@
+hour,total_events,keyboard_events,click_events,scroll_events,switch_events,avg_cpu,avg_ram,hour_label
+1,1,0,1,0,0,0.0,74.2,01:00

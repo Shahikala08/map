@@ -1,0 +1,2 @@
+application,type,focus_minutes,focus_pct,events_total,events_per_min,clicks,keystrokes,scroll_ticks,scroll_events,context_switches_out,avg_cpu_pct,attention_score
+dashboard.py - attention_pro - Visual Studio Code,deep_work,0.0,0.0,1,10.0,1,0,0,0,0,0.0,35.0

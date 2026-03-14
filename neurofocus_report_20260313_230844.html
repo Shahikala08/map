@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroFocus Attention Report</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: #f0f4f8;
+      color: #1a2035;
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, #03050a 0%, #0d1425 55%, #1a2540 100%);
+      color: #e8edf5;
+      padding: 3rem 4rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute; top: -60px; right: -60px;
+      width: 350px; height: 350px;
+      background: radial-gradient(circle, rgba(79,156,249,0.12) 0%, transparent 70%);
+    }
+    .header::after {
+      content: '';
+      position: absolute; bottom: -40px; left: 30%;
+      width: 250px; height: 250px;
+      background: radial-gradient(circle, rgba(155,142,244,0.08) 0%, transparent 70%);
+    }
+    .header-badge {
+      display: inline-block;
+      background: rgba(79,156,249,0.15);
+      border: 1px solid rgba(79,156,249,0.35);
+      color: #7ab8fb;
+      font-size: .7rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .2em;
+      padding: .25rem .9rem; border-radius: 99px;
+      margin-bottom: .9rem;
+    }
+    .header-title {
+      font-size: 2.6rem; font-weight: 800;
+      letter-spacing: -.04em; line-height: 1.1;
+      margin-bottom: .7rem;
+      background: linear-gradient(135deg, #e8edf5 30%, #8a9bb8 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .header-meta {
+      font-size: .88rem; color: #8a9bb8;
+      display: flex; flex-wrap: wrap; gap: 1.2rem; align-items: center;
+    }
+    .header-meta strong { color: #c8d4e8; }
+    .score-pill {
+      display: inline-flex; align-items: center; gap: .4rem;
+      background: #dc262622;
+      border: 1px solid #dc262655;
+      color: #dc2626;
+      font-size: .82rem; font-weight: 700;
+      padding: .22rem .8rem; border-radius: 99px;
+    }
+    .score-dot {
+      width: 8px; height: 8px;
+      background: #dc2626;
+      border-radius: 50%;
+    }
+
+    /* ── Layout ── */
+    .container { max-width: 1140px; margin: 0 auto; padding: 2.5rem 2.5rem; }
+
+    /* ── Section ── */
+    .section { margin-bottom: 2.8rem; }
+    .section-header {
+      display: flex; align-items: center; gap: .8rem;
+      margin-bottom: 1.4rem;
+      padding-bottom: .65rem;
+      border-bottom: 2px solid #e2e8f0;
+    }
+    .section-icon { font-size: 1.25rem; }
+    .section-title {
+      font-size: .82rem; font-weight: 800;
+      text-transform: uppercase; letter-spacing: .14em;
+      color: #64748b;
+    }
+
+    /* ── KPI grid ── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: .9rem;
+      margin-bottom: 1.4rem;
+    }
+    .kpi-card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 1.25rem 1.3rem;
+      position: relative; overflow: hidden;
+      transition: box-shadow .2s;
+    }
+    .kpi-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,.08); }
+    .kpi-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, #4f9cf9, #9b8ef4);
+      border-radius: 16px 16px 0 0;
+    }
+    .kpi-card.green::before  { background: linear-gradient(90deg, #16a34a, #4ade80); }
+    .kpi-card.red::before    { background: linear-gradient(90deg, #dc2626, #f87171); }
+    .kpi-card.purple::before { background: linear-gradient(90deg, #7c3aed, #a78bfa); }
+    .kpi-card.amber::before  { background: linear-gradient(90deg, #d97706, #fbbf24); }
+    .kpi-card.cyan::before   { background: linear-gradient(90deg, #0891b2, #22d3ee); }
+    .kpi-label {
+      font-size: .63rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .14em;
+      color: #94a3b8; margin-bottom: .4rem;
+    }
+    .kpi-value {
+      font-size: 2rem; font-weight: 800;
+      color: #1a2035; letter-spacing: -.03em; line-height: 1.1;
+    }
+    .kpi-card.green  .kpi-value { color: #16a34a; }
+    .kpi-card.red    .kpi-value { color: #dc2626; }
+    .kpi-card.purple .kpi-value { color: #7c3aed; }
+    .kpi-card.amber  .kpi-value { color: #d97706; }
+    .kpi-card.cyan   .kpi-value { color: #0891b2; }
+    .kpi-foot {
+      font-size: .7rem; color: #94a3b8;
+      margin-top: .35rem; font-weight: 500;
+    }
+
+    /* ── 8-col grid (2 rows of 4) ── */
+    .kpi-grid-8 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: .9rem;
+      margin-bottom: 1.4rem;
+    }
+
+    /* ── Insight ── */
+    .insight {
+      background: #eff6ff;
+      border-left: 3px solid #3b82f6;
+      border-radius: 0 10px 10px 0;
+      padding: .85rem 1.1rem;
+      margin-bottom: .7rem;
+      font-size: .88rem; color: #1e3a5f;
+      font-weight: 500;
+    }
+    .insight.green { background: #f0fdf4; border-left-color: #16a34a; color: #14532d; }
+    .insight.red   { background: #fef2f2; border-left-color: #dc2626; color: #7f1d1d; }
+    .insight.amber { background: #fffbeb; border-left-color: #d97706; color: #78350f; }
+    .insight strong { font-weight: 800; }
+
+    /* ── Charts ── */
+    .chart-box {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 1rem;
+      margin-bottom: 1.2rem;
+      overflow: hidden;
+    }
+    .chart-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    /* ── Tables ── */
+    .table-wrap {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    .data-table {
+      width: 100%; border-collapse: collapse;
+      font-size: .84rem;
+    }
+    .data-table thead th {
+      background: #1a2035; color: #e8edf5;
+      padding: .75rem 1rem;
+      text-align: left;
+      font-size: .68rem; text-transform: uppercase;
+      letter-spacing: .1em; font-weight: 700;
+    }
+    .data-table tbody td {
+      padding: .6rem 1rem;
+      border-bottom: 1px solid #f1f5f9;
+      color: #334155; vertical-align: middle;
+    }
+    .data-table tbody tr:last-child td { border-bottom: none; }
+    .data-table tbody tr:hover td { background: #f8fafc; }
+
+    /* ── Badges ── */
+    .badge {
+      display: inline-block;
+      padding: .18rem .62rem; border-radius: 99px;
+      font-size: .7rem; font-weight: 700;
+    }
+    .badge-green  { background: #dcfce7; color: #16a34a; }
+    .badge-red    { background: #fee2e2; color: #dc2626; }
+    .badge-blue   { background: #dbeafe; color: #2563eb; }
+    .badge-purple { background: #ede9fe; color: #7c3aed; }
+    .badge-orange { background: #ffedd5; color: #c2410c; }
+    .badge-gray   { background: #f1f5f9; color: #64748b; }
+    .badge-teal   { background: #ccfbf1; color: #0f766e; }
+
+    /* ── Score bar ── */
+    .score-bar-wrap {
+      display: flex; align-items: center; gap: .5rem;
+    }
+    .score-bar {
+      height: 6px; border-radius: 99px;
+      flex: 1; max-width: 80px;
+      background: #16a34a;
+    }
+    .score-bar-lbl {
+      font-size: .78rem; font-weight: 700;
+      color: #64748b; min-width: 24px;
+    }
+
+    /* ── Mono ── */
+    .mono { font-family: 'Consolas','Courier New',monospace; font-size: .82rem; }
+
+    /* ── No data ── */
+    .no-data { color: #94a3b8; font-size: .88rem; padding: 1rem 0; font-style: italic; }
+
+    /* ── Session timeline ── */
+    .timeline {
+      display: flex; align-items: center; gap: 0;
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px; overflow: hidden;
+      margin-bottom: 1.4rem;
+      height: 36px;
+    }
+    .tl-seg {
+      height: 100%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .7rem; font-weight: 700; color: white;
+      min-width: 4px;
+      transition: opacity .2s;
+    }
+    .tl-legend {
+      display: flex; gap: 1.2rem; flex-wrap: wrap;
+      font-size: .78rem; color: #64748b;
+      margin-bottom: 1rem;
+    }
+    .tl-dot {
+      display: inline-block; width: 10px; height: 10px;
+      border-radius: 3px; margin-right: .35rem;
+      vertical-align: middle;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      background: #1a2035;
+      color: #64748b;
+      padding: 1.5rem 3rem;
+      text-align: center;
+      font-size: .78rem;
+      margin-top: .5rem;
+    }
+    .footer strong { color: #94a3b8; }
+
+    /* ── Print ── */
+    @media print {
+      body { background: white; }
+      .header { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .kpi-card, .chart-box, .table-wrap { break-inside: avoid; }
+    }
+
+    @media (max-width: 900px) {
+      .kpi-grid, .kpi-grid-8 { grid-template-columns: repeat(2, 1fr); }
+      .chart-grid { grid-template-columns: 1fr; }
+      .header { padding: 2rem 1.5rem; }
+      .container { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<div class="header">
+  <div class="header-badge">🧠 NeuroFocus · Attention Intelligence</div>
+  <div class="header-title">NeuroFocus Attention Report</div>
+  <div class="header-meta">
+    <span><strong>Date:</strong> 2026-03-13</span>
+    <span><strong>Start:</strong> 23:08:31</span>
+    <span><strong>End:</strong> 23:08:31</span>
+    <span><strong>Active:</strong> 0m</span>
+    <span><strong>Wall-clock:</strong> 0m</span>
+    <span><strong>Generated:</strong> 2026-03-13 23:08</span>
+    <span>
+      <div class="score-pill">
+        <div class="score-dot"></div>
+        Focus Score: 0/100 — Needs Work
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- ── SESSION TIMELINE ── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">📊</span>
+      <div class="section-title">Session Overview</div>
+    </div>
+
+    <!-- Visual timeline bar -->
+    
+    <div class="tl-legend"><span><span class="tl-dot" style="background:#4f9cf9"></span>Neutral: 100.0%</span></div>
+    <div class="timeline"><div class="tl-seg" style="width:100.0%;background:#4f9cf9" title="Neutral: 100.0%"></div></div>
+    
+
+    <!-- 8 KPI cards -->
+    <div class="kpi-grid-8">
+      <div class="kpi-card">
+        <div class="kpi-label">Active Time</div>
+        <div class="kpi-value">0m</div>
+        <div class="kpi-foot">Capped (idle gaps excluded)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Wall-Clock Span</div>
+        <div class="kpi-value">0m</div>
+        <div class="kpi-foot">Total elapsed time</div>
+      </div>
+      <div class="kpi-card green">
+        <div class="kpi-label">Deep Work</div>
+        <div class="kpi-value">0m</div>
+        <div class="kpi-foot">0.0% of session</div>
+      </div>
+      <div class="kpi-card red">
+        <div class="kpi-label">Distraction</div>
+        <div class="kpi-value">0m</div>
+        <div class="kpi-foot">0.0% of session</div>
+      </div>
+      <div class="kpi-card purple">
+        <div class="kpi-label">Focus Score</div>
+        <div class="kpi-value">0<span style="font-size:1rem;color:#94a3b8">/100</span></div>
+        <div class="kpi-foot">Needs Work</div>
+      </div>
+      <div class="kpi-card cyan">
+        <div class="kpi-label">Context Switches</div>
+        <div class="kpi-value">0</div>
+        <div class="kpi-foot">0.0 per hour</div>
+      </div>
+      <div class="kpi-card amber">
+        <div class="kpi-label">Total Events</div>
+        <div class="kpi-value">1</div>
+        <div class="kpi-foot">Recorded interactions</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Apps Used</div>
+        <div class="kpi-value">1</div>
+        <div class="kpi-foot">Unique applications</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── INPUT TOTALS ── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">⌨️</span>
+      <div class="section-title">Input Totals</div>
+    </div>
+    <div class="kpi-grid">
+      <div class="kpi-card amber">
+        <div class="kpi-label">Keystrokes</div>
+        <div class="kpi-value">0</div>
+        <div class="kpi-foot">Burst-decoded</div>
+      </div>
+      <div class="kpi-card green">
+        <div class="kpi-label">Mouse Clicks</div>
+        <div class="kpi-value">1</div>
+        <div class="kpi-foot">Individual clicks</div>
+      </div>
+      <div class="kpi-card purple">
+        <div class="kpi-label">Scroll Ticks</div>
+        <div class="kpi-value">0</div>
+        <div class="kpi-foot">Real scroll distance</div>
+      </div>
+      <div class="kpi-card cyan">
+        <div class="kpi-label">Idle Minutes</div>
+        <div class="kpi-value">0m</div>
+        <div class="kpi-foot">0.0% of wall-clock</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── FOCUS INSIGHTS ── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🎯</span>
+      <div class="section-title">Focus Analysis & Insights</div>
+    </div>
+    <div class="insight red">
+      <strong>Deep Work Ratio:</strong> 0.0% of session on productive applications —
+      0m of focused work time recorded.
+    </div>
+    <div class="insight green">
+      <strong>Distraction Level:</strong> 0.0% on off-task apps —
+      0m total.
+      Great job keeping distractions low.
+    </div>
+    <div class="insight">
+      <strong>Idle Time:</strong> 0.0% of wall-clock inactive —
+      0m in idle/away periods.
+    </div>
+    <div class="insight green">
+      <strong>Context Switching:</strong> 0.0 switches/hr — ✅ Good continuity. Healthy context management.
+    </div>
+  </div>
+
+  <!-- ── CHARTS ── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">📈</span>
+      <div class="section-title">Interaction Charts</div>
+    </div>
+    <div class="chart-box"><div>                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.4.0.min.js" integrity="sha256-KEmPoupLpFyGMyGAiOsiNDbKDKAvxXAn/W+oQa0ZAfk=" crossorigin="anonymous"></script>                <div id="9bde89dc-f8fa-4279-bcea-e9844738bdbb" class="plotly-graph-div" style="height:300px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("9bde89dc-f8fa-4279-bcea-e9844738bdbb")) {                    Plotly.newPlot(                        "9bde89dc-f8fa-4279-bcea-e9844738bdbb",                        [{"fill":"tozeroy","fillcolor":"rgba(79,156,249,0.12)","hovertemplate":"\u003cb\u003e%{x|%H:%M}\u003c\u002fb\u003e\u003cbr\u003eEvents: %{y}\u003cextra\u003e\u003c\u002fextra\u003e","line":{"color":"#4f9cf9","shape":"spline","smoothing":0.7,"width":2.5},"mode":"lines","name":"Activity Density","x":["2026-03-13T23:05:00.000000000"],"y":{"dtype":"i1","bdata":"BA=="},"type":"scatter"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"font":{"family":"'Segoe UI',system-ui,sans-serif","color":"#344563","size":12},"hoverlabel":{"font":{"size":13,"color":"#e8edf5"},"bgcolor":"#1a2035","bordercolor":"rgba(79,156,249,.4)"},"margin":{"l":50,"r":30,"t":50,"b":50},"title":{"font":{"size":15,"color":"#1a2035"},"text":"Activity Density Over Time"},"xaxis":{"tickfont":{"size":12,"color":"#6b7a99"},"title":{"text":"Time"},"gridcolor":"#e8edf5","linecolor":"#d0d8e8","zeroline":false},"yaxis":{"tickfont":{"size":12,"color":"#6b7a99"},"title":{"text":"Events \u002f 5 min"},"gridcolor":"#e8edf5","linecolor":"#d0d8e8","zeroline":false},"paper_bgcolor":"white","plot_bgcolor":"#f8f9fa","height":300},                        {"displayModeBar": true, "responsive": true}                    )                };            </script>        </div></div>
+<div class="chart-box"><div>                            <div id="dbb38c82-5209-49b8-8c93-0d463961686d" class="plotly-graph-div" style="height:240px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("dbb38c82-5209-49b8-8c93-0d463961686d")) {                    Plotly.newPlot(                        "dbb38c82-5209-49b8-8c93-0d463961686d",                        [{"hovertemplate":"\u003cb\u003e%{y}\u003c\u002fb\u003e: %{x:,}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":["#e8650a","#f0c040"],"line":{"width":0}},"orientation":"h","x":[3,5],"y":["Mouse Clicks","Arrow Nav"],"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"font":{"family":"'Segoe UI',system-ui,sans-serif","color":"#344563","size":12},"hoverlabel":{"font":{"size":13,"color":"#e8edf5"},"bgcolor":"#1a2035","bordercolor":"rgba(79,156,249,.4)"},"margin":{"l":110,"r":60,"t":50,"b":50},"title":{"font":{"size":15,"color":"#1a2035"},"text":"Interaction Type Distribution"},"xaxis":{"tickfont":{"size":12,"color":"#6b7a99"},"title":{"text":"Count"},"gridcolor":"#e8edf5","linecolor":"#d0d8e8","zeroline":false},"yaxis":{"tickfont":{"size":12,"color":"#6b7a99"},"title":{"font":{"size":13,"color":"#344563"}},"gridcolor":"#e8edf5","linecolor":"#d0d8e8","zeroline":false,"autorange":"reversed"},"paper_bgcolor":"white","plot_bgcolor":"#f8f9fa","height":240,"bargap":0.4},                        {"displayModeBar": true, "responsive": true}                    )                };            </script>        </div></div>
+<div class="chart-box"><div>                            <div id="abfaa837-db55-4a66-a468-570a5c3adb60" class="plotly-graph-div" style="height:240px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("abfaa837-db55-4a66-a468-570a5c3adb60")) {                    Plotly.newPlot(                        "abfaa837-db55-4a66-a468-570a5c3adb60",                        [{"hovertemplate":"\u003cb\u003e%{y}\u003c\u002fb\u003e\u003cbr\u003e%{x:,} clicks\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":{"dtype":"i1","bdata":"Aw=="},"colorscale":[[0.0,"#052a1a"],[0.35,"#1e8a50"],[1.0,"#3dd68c"]],"line":{"width":0}},"orientation":"h","text":["  3"],"textfont":{"color":"#16a34a","size":13},"textposition":"outside","x":{"dtype":"i1","bdata":"Aw=="},"y":["\u25cf dashboard.py - attention_pro"],"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"font":{"family":"'Segoe UI',system-ui,sans-serif","color":"#344563","size":12},"hoverlabel":{"font":{"size":13,"color":"#e8edf5"},"bgcolor":"#1a2035","bordercolor":"rgba(79,156,249,.4)"},"margin":{"l":230,"r":100,"t":50,"b":50},"title":{"font":{"size":15,"color":"#1a2035"},"text":"Mouse Clicks by App"},"xaxis":{"tickfont":{"size":12,"color":"#6b7a99"},"title":{"text":"Clicks"},"gridcolor":"#e8edf5","linecolor":"#d0d8e8","zeroline":false},"yaxis":{"tickfont":{"size":12,"color":"#6b7a99"},"title":{"font":{"size":13,"color":"#344563"}},"gridcolor":"#e8edf5","linecolor":"#d0d8e8","zeroline":false},"paper_bgcolor":"white","plot_bgcolor":"#f8f9fa","height":240,"bargap":0.4,"showlegend":false},                        {"displayModeBar": true, "responsive": true}                    )                };            </script>        </div></div>
+
+  </div>
+
+  <!-- ── HOURLY PATTERNS ── -->
+  
+            <div class="section">
+              <div class="section-header">
+                <span class="section-icon">🕐</span>
+                <div class="section-title">Hourly Activity Patterns</div>
+              </div>
+              <div class="chart-box"><div>                            <div id="d74fea4f-5846-46fe-9131-d9bc0fba2d9e" class="plotly-graph-div" style="height:260px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("d74fea4f-5846-46fe-9131-d9bc0fba2d9e")) {                    Plotly.newPlot(                        "d74fea4f-5846-46fe-9131-d9bc0fba2d9e",                        [{"hovertemplate":"\u003cb\u003e%{x}\u003c\u002fb\u003e\u003cbr\u003eEvents: %{y:,}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":{"dtype":"i1","bdata":"AQ=="},"colorscale":[[0,"#e8f4fd"],[0.5,"#4f9cf9"],[1,"#1d4ed8"]],"line":{"width":0}},"x":["23:00"],"y":{"dtype":"i1","bdata":"AQ=="},"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"font":{"family":"'Segoe UI',system-ui,sans-serif","color":"#344563","size":12},"hoverlabel":{"font":{"size":13,"color":"#e8edf5"},"bgcolor":"#1a2035","bordercolor":"rgba(79,156,249,.4)"},"margin":{"l":50,"r":30,"t":50,"b":50},"title":{"font":{"size":15,"color":"#1a2035"},"text":"Activity by Hour of Day"},"xaxis":{"tickfont":{"size":12,"color":"#6b7a99"},"title":{"text":"Hour"},"gridcolor":"#e8edf5","linecolor":"#d0d8e8","zeroline":false},"yaxis":{"tickfont":{"size":12,"color":"#6b7a99"},"title":{"text":"Total Events"},"gridcolor":"#e8edf5","linecolor":"#d0d8e8","zeroline":false},"paper_bgcolor":"white","plot_bgcolor":"#f8f9fa","height":260},                        {"displayModeBar": true, "responsive": true}                    )                };            </script>        </div></div>
+            </div>
+
+  <!-- ── APP BREAKDOWN TABLE ── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🖥</span>
+      <div class="section-title">Application Breakdown</div>
+    </div>
+    <div class="table-wrap">
+      
+        <table class="data-table">
+          <thead><tr>
+            <th>Application</th><th>Type</th><th>Time</th><th>Share</th>
+            <th>Clicks</th><th>Keys</th><th>Scrolls</th><th>Score /100</th>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td>● dashboard.py - attention_pro</td>
+              <td><span class="badge badge-green">Deep Work</span></td>
+              <td>0.0 min</td>
+              <td>0.0%</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>
+                <div class="score-bar-wrap">
+                  <div class="score-bar" style="width:35%;background:#d97706"></div>
+                  <span class="score-bar-lbl">35</span>
+                </div>
+              </td>
+            </tr></tbody>
+        </table>
+    </div>
+  </div>
+
+  <!-- ── CONTEXT SWITCHING TABLE ── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🔀</span>
+      <div class="section-title">Context Switching — Top Transitions</div>
+    </div>
+    <div class="insight green">
+      <strong>Switch Rate:</strong> 0.0 switches/hr across
+      0 total window changes in 0m.
+    </div>
+    <div class="table-wrap"><p class='no-data'>No window switch events recorded.</p></div>
+  </div>
+
+  <!-- ── RAW EVENT LOG ── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🗂</span>
+      <div class="section-title">Raw Event Log (last 150 events)</div>
+    </div>
+    <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Timestamp</th><th>Event Type</th><th>Application</th></tr></thead>
+          <tbody><tr><td class='mono'>23:08:31</td><td><span class='badge badge-green'>mouse_click</span></td><td>● dashboard.py - attention_pro</td></tr><tr><td class='mono'>23:08:37</td><td><span class='badge badge-green'>mouse_click</span></td><td>● dashboard.py - attention_pro</td></tr><tr><td class='mono'>23:08:39</td><td><span class='badge badge-teal'>navigation</span></td><td>● dashboard.py - attention_pro</td></tr><tr><td class='mono'>23:08:44</td><td><span class='badge badge-green'>mouse_click</span></td><td>● dashboard.py - attention_pro</td></tr></tbody>
+        </table></div>
+  </div>
+
+</div><!-- /container -->
+
+<div class="footer">
+  <strong>NeuroFocus v2.0</strong> &nbsp;·&nbsp;
+  100% Offline &nbsp;·&nbsp; No cloud &nbsp;·&nbsp; No telemetry &nbsp;·&nbsp; No surveillance
+  &nbsp;·&nbsp; Report generated 2026-03-13 23:08
+</div>
+
+</body>
+</html>

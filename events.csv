@@ -1,0 +1,1420 @@
+timestamp,event_type,application,cpu_pct,ram_pct,hour_slot,extra
+2026-03-14 01:37:38.078,mouse_click,dashboard.py - attention_pro - Visual Studio Code,0.0,74.2,01:00,btn:left
+2026-03-14 01:37:48.913,idle,dashboard.py - attention_pro - Visual Studio Code,0.0,75.7,01:00,gap:5s
+2026-03-14 01:37:57.916,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.6,76.8,01:00,btn:left
+2026-03-14 01:37:59.634,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.5,76.9,01:00,btn:left
+2026-03-14 01:38:04.017,mouse_click,dashboard.py - attention_pro - Visual Studio Code,8.5,76.8,01:00,btn:left
+2026-03-14 01:38:09.325,idle,dashboard.py - attention_pro - Visual Studio Code,7.7,76.6,01:00,gap:5s
+2026-03-14 01:38:13.509,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.5,77.4,01:00,btn:left
+2026-03-14 01:38:15.106,mouse_click,dashboard.py - attention_pro - Visual Studio Code,8.0,78.2,01:00,btn:left
+2026-03-14 01:38:16.675,navigation,dashboard.py - attention_pro - Visual Studio Code,100.0,78.5,01:00,arrow:up:count:5
+2026-03-14 01:38:19.467,mouse_click,dashboard.py - attention_pro - Visual Studio Code,8.1,77.8,01:00,btn:left
+2026-03-14 01:38:20.694,navigation,dashboard.py - attention_pro - Visual Studio Code,7.9,78.5,01:00,arrow:up:count:5
+2026-03-14 01:38:27.577,idle,dashboard.py - attention_pro - Visual Studio Code,9.7,80.5,01:00,gap:5s
+2026-03-14 01:38:28.110,mouse_click,dashboard.py - attention_pro - Visual Studio Code,12.2,81.1,01:00,btn:left
+2026-03-14 01:38:31.211,navigation,dashboard.py - attention_pro - Visual Studio Code,13.2,79.9,01:00,arrow:up:count:5
+2026-03-14 01:38:37.153,mouse_click,dashboard.py - attention_pro - Visual Studio Code,22.9,82.3,01:00,btn:left
+2026-03-14 01:38:40.437,mouse_click,dashboard.py - attention_pro - Visual Studio Code,19.6,83.1,01:00,btn:left
+2026-03-14 01:38:42.839,mouse_click,dashboard.py - attention_pro - Visual Studio Code,30.4,80.5,01:00,btn:left
+2026-03-14 01:38:46.560,window_switch,dashboard.py - attention_pro - Visual Studio Code,14.0,81.4,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:38:46.560,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,14.0,81.4,01:00,btn:left
+2026-03-14 01:38:50.280,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.0,81.4,01:00,btn:left
+2026-03-14 01:38:52.546,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.0,81.3,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:38:52.546,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.0,81.3,01:00,btn:left
+2026-03-14 01:38:55.403,window_switch,dashboard.py - attention_pro - Visual Studio Code,10.4,81.2,01:00,→ Enhancing design for professional appeal - Claude - Google Chrome
+2026-03-14 01:38:55.403,mouse_click,Enhancing design for professional appeal - Claude - Google Chrome,10.4,81.2,01:00,btn:left
+2026-03-14 01:38:56.949,mouse_click,Enhancing design for professional appeal - Claude - Google Chrome,17.7,81.7,01:00,btn:left
+2026-03-14 01:39:01.574,window_switch,Enhancing design for professional appeal - Claude - Google Chrome,11.8,82.2,01:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 01:39:01.574,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.8,82.2,01:00,btn:left
+2026-03-14 01:39:07.074,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,15.9,84.3,01:00,gap:5s
+2026-03-14 01:39:20.061,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.8,82.6,01:00,btn:left
+2026-03-14 01:39:24.244,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.6,82.5,01:00,btn:left
+2026-03-14 01:39:26.076,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.3,82.5,01:00,btn:left
+2026-03-14 01:39:26.952,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,17.9,82.2,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:39:26.952,mouse_click,dashboard.py - attention_pro - Visual Studio Code,17.9,82.2,01:00,btn:left
+2026-03-14 01:39:30.453,window_switch,dashboard.py - attention_pro - Visual Studio Code,14.2,82.3,01:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:39:30.453,keyboard,● dashboard.py - attention_pro - Visual Studio Code,14.2,82.3,01:00,burst:10
+2026-03-14 01:39:32.083,window_switch,● dashboard.py - attention_pro - Visual Studio Code,16.1,82.8,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:39:32.083,mouse_click,dashboard.py - attention_pro - Visual Studio Code,16.1,82.8,01:00,btn:left
+2026-03-14 01:39:34.406,window_switch,dashboard.py - attention_pro - Visual Studio Code,12.5,82.7,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:39:34.406,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.5,82.7,01:00,btn:left
+2026-03-14 01:39:39.395,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.7,82.4,01:00,btn:left
+2026-03-14 01:39:40.278,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,17.5,82.5,01:00,btn:left
+2026-03-14 01:39:41.084,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,17.2,82.5,01:00,btn:left
+2026-03-14 01:39:43.250,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.2,82.5,01:00,btn:left
+2026-03-14 01:39:45.489,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.1,82.1,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:39:45.489,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.1,82.1,01:00,btn:left
+2026-03-14 01:39:50.092,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.6,82.2,01:00,btn:left
+2026-03-14 01:39:54.574,window_switch,dashboard.py - attention_pro - Visual Studio Code,10.9,82.3,01:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 01:39:54.574,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.9,82.3,01:00,btn:left
+2026-03-14 01:39:56.612,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.4,82.7,01:00,btn:left
+2026-03-14 01:39:59.431,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.7,82.0,01:00,burst:10
+2026-03-14 01:40:03.042,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.6,82.3,01:00,btn:left
+2026-03-14 01:40:04.887,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.0,82.3,01:00,btn:left
+2026-03-14 01:40:08.116,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.1,82.2,01:00,btn:left
+2026-03-14 01:40:14.281,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.6,82.1,01:00,btn:left
+2026-03-14 01:40:19.513,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.4,82.1,01:00,gap:5s
+2026-03-14 01:40:32.073,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.9,81.7,01:00,btn:left
+2026-03-14 01:40:34.767,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.0,81.8,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:40:34.767,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.0,81.8,01:00,btn:left
+2026-03-14 01:40:36.320,window_switch,dashboard.py - attention_pro - Visual Studio Code,9.2,82.1,01:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 01:40:36.320,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.2,82.1,01:00,btn:left
+2026-03-14 01:40:39.214,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.3,82.5,01:00,→ (3) Instagram - Google Chrome
+2026-03-14 01:40:39.214,mouse_click,(3) Instagram - Google Chrome,9.3,82.5,01:00,btn:left
+2026-03-14 01:40:42.969,window_switch,(3) Instagram - Google Chrome,8.1,82.5,01:00,→ Instagram - Google Chrome
+2026-03-14 01:40:42.969,mouse_click,Instagram - Google Chrome,8.1,82.5,01:00,btn:left
+2026-03-14 01:40:46.682,window_switch,Instagram - Google Chrome,10.8,82.0,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:40:46.682,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.8,82.0,01:00,btn:left
+2026-03-14 01:40:49.511,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.7,82.0,01:00,btn:left
+2026-03-14 01:40:54.680,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.6,81.7,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:40:54.680,idle,dashboard.py - attention_pro - Visual Studio Code,8.6,81.7,01:00,gap:5s
+2026-03-14 01:40:56.416,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.7,81.7,01:00,btn:left
+2026-03-14 01:40:57.941,window_switch,dashboard.py - attention_pro - Visual Studio Code,9.3,82.0,01:00,→ (2) Instagram - Google Chrome
+2026-03-14 01:40:57.941,mouse_click,(2) Instagram - Google Chrome,9.3,82.0,01:00,btn:left
+2026-03-14 01:40:59.488,window_switch,(2) Instagram - Google Chrome,7.2,82.2,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:40:59.488,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,7.2,82.2,01:00,btn:left
+2026-03-14 01:41:01.597,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.3,82.5,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:41:01.597,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.3,82.5,01:00,btn:left
+2026-03-14 01:41:03.414,window_switch,dashboard.py - attention_pro - Visual Studio Code,10.1,82.6,01:00,→ (2) Instagram - Google Chrome
+2026-03-14 01:41:03.414,mouse_click,(2) Instagram - Google Chrome,10.1,82.6,01:00,btn:left
+2026-03-14 01:41:06.892,window_switch,(2) Instagram - Google Chrome,10.6,82.6,01:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 01:41:06.892,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.6,82.6,01:00,btn:left
+2026-03-14 01:41:12.140,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.7,82.7,01:00,gap:5s
+2026-03-14 01:41:20.832,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.0,82.0,01:00,btn:left
+2026-03-14 01:41:21.844,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.5,82.4,01:00,→ (2) Instagram - Google Chrome
+2026-03-14 01:41:21.844,mouse_click,(2) Instagram - Google Chrome,10.5,82.4,01:00,btn:left
+2026-03-14 01:41:26.855,window_switch,(2) Instagram - Google Chrome,10.8,82.8,01:00,→ (171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome
+2026-03-14 01:41:26.855,idle,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,10.8,82.8,01:00,gap:5s
+2026-03-14 01:41:29.070,mouse_click,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,9.4,82.6,01:00,btn:left
+2026-03-14 01:41:30.894,window_switch,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,7.8,82.7,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:41:30.894,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.8,82.7,01:00,btn:left
+2026-03-14 01:41:32.405,window_switch,dashboard.py - attention_pro - Visual Studio Code,10.1,82.7,01:00,→ (171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome
+2026-03-14 01:41:32.405,mouse_click,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,10.1,82.7,01:00,btn:left
+2026-03-14 01:41:37.598,window_switch,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,9.5,82.4,01:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 01:41:37.598,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.5,82.4,01:00,gap:5s
+2026-03-14 01:48:01.168,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.3,80.4,01:00,gap:5s
+2026-03-14 01:48:06.930,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.3,80.7,01:00,btn:left
+2026-03-14 01:48:10.927,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.7,80.9,01:00,btn:left
+2026-03-14 01:48:14.579,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.4,80.8,01:00,btn:left
+2026-03-14 01:48:20.079,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.2,80.6,01:00,gap:5s
+2026-03-14 01:48:42.623,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.0,79.7,01:00,btn:left
+2026-03-14 01:48:44.397,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.2,79.7,01:00,btn:left
+2026-03-14 01:48:49.896,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.3,80.2,01:00,gap:5s
+2026-03-14 01:48:51.293,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.0,80.2,01:00,btn:left
+2026-03-14 01:48:51.535,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.0,80.2,01:00,btn:left
+2026-03-14 01:48:52.577,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.7,80.2,01:00,btn:left
+2026-03-14 01:48:58.041,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.3,80.0,01:00,gap:5s
+2026-03-14 01:49:02.702,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.1,79.7,01:00,btn:left
+2026-03-14 01:49:06.387,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.4,79.8,01:00,btn:left
+2026-03-14 01:49:11.825,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.9,80.1,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:49:11.825,idle,dashboard.py - attention_pro - Visual Studio Code,8.9,80.1,01:00,gap:5s
+2026-03-14 01:49:12.271,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.9,80.1,01:00,btn:left
+2026-03-14 01:49:14.943,window_switch,dashboard.py - attention_pro - Visual Studio Code,15.7,81.0,01:00,→ Home - File Explorer
+2026-03-14 01:49:14.943,mouse_click,Home - File Explorer,15.7,81.0,01:00,btn:left
+2026-03-14 01:49:16.838,window_switch,Home - File Explorer,9.3,81.0,01:00,→ Downloads - File Explorer
+2026-03-14 01:49:16.838,mouse_click,Downloads - File Explorer,9.3,81.0,01:00,btn:left
+2026-03-14 01:49:17.102,mouse_click,Downloads - File Explorer,7.5,81.0,01:00,btn:left
+2026-03-14 01:49:20.501,window_switch,Downloads - File Explorer,10.9,80.9,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:49:20.501,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.9,80.9,01:00,btn:left
+2026-03-14 01:49:22.281,keyboard,dashboard.py - attention_pro - Visual Studio Code,8.5,80.8,01:00,burst:10
+2026-03-14 01:49:23.963,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.5,80.8,01:00,btn:left
+2026-03-14 01:49:25.090,mouse_click,dashboard.py - attention_pro - Visual Studio Code,13.5,80.8,01:00,btn:left
+2026-03-14 01:49:25.880,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.9,80.8,01:00,btn:left
+2026-03-14 01:49:33.730,idle,dashboard.py - attention_pro - Visual Studio Code,9.6,81.4,01:00,gap:5s
+2026-03-14 01:49:35.564,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.7,81.4,01:00,btn:left
+2026-03-14 01:49:40.586,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.9,81.3,01:00,btn:left
+2026-03-14 01:49:41.622,keyboard,dashboard.py - attention_pro - Visual Studio Code,8.1,81.4,01:00,burst:10
+2026-03-14 01:49:47.716,window_switch,dashboard.py - attention_pro - Visual Studio Code,11.5,82.3,01:00,→ NeuroFocus · Attention Intelligence and 1 more page - Personal - Microsoft​ Edge
+2026-03-14 01:49:47.716,mouse_click,NeuroFocus · Attention Intelligence and 1 more page - Personal - Microsoft​ Edge,11.5,82.3,01:00,btn:left
+2026-03-14 01:49:50.028,window_switch,NeuroFocus · Attention Intelligence and 1 more page - Personal - Microsoft​ Edge,8.4,81.9,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:49:50.028,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.4,81.9,01:00,btn:left
+2026-03-14 01:49:55.044,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.8,81.3,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:49:55.044,idle,dashboard.py - attention_pro - Visual Studio Code,8.8,81.3,01:00,gap:5s
+2026-03-14 01:50:04.142,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.0,81.0,01:00,btn:left
+2026-03-14 01:50:05.018,window_switch,dashboard.py - attention_pro - Visual Studio Code,12.3,81.2,01:00,→ report_generator.py - attention_pro - Visual Studio Code
+2026-03-14 01:50:05.018,mouse_click,report_generator.py - attention_pro - Visual Studio Code,12.3,81.2,01:00,btn:left
+2026-03-14 01:50:06.678,mouse_click,report_generator.py - attention_pro - Visual Studio Code,8.5,81.3,01:00,btn:left
+2026-03-14 01:50:09.186,window_switch,report_generator.py - attention_pro - Visual Studio Code,8.7,81.4,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:50:09.186,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.7,81.4,01:00,btn:left
+2026-03-14 01:50:10.611,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.6,81.6,01:00,btn:left
+2026-03-14 01:50:11.623,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.3,81.7,01:00,btn:left
+2026-03-14 01:50:12.876,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,7.7,81.7,01:00,btn:left
+2026-03-14 01:50:18.098,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.4,81.8,01:00,→ Unknown
+2026-03-14 01:50:18.098,idle,Unknown,8.4,81.8,01:00,gap:5s
+2026-03-14 01:50:29.567,window_switch,Unknown,8.1,81.6,01:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 01:50:29.567,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.1,81.6,01:00,btn:left
+2026-03-14 01:50:32.801,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.9,81.6,01:00,→ report_generator.py - attention_pro - Visual Studio Code
+2026-03-14 01:50:32.801,mouse_click,report_generator.py - attention_pro - Visual Studio Code,7.9,81.6,01:00,btn:left
+2026-03-14 01:50:37.975,idle,report_generator.py - attention_pro - Visual Studio Code,7.7,81.6,01:00,gap:5s
+2026-03-14 01:51:54.100,window_switch,report_generator.py - attention_pro - Visual Studio Code,7.1,82.9,01:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 01:51:54.100,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.1,82.9,01:00,btn:left
+2026-03-14 01:51:55.396,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,20.0,83.4,01:00,→ (2) Instagram - Google Chrome
+2026-03-14 01:51:55.396,mouse_click,(2) Instagram - Google Chrome,20.0,83.4,01:00,btn:left
+2026-03-14 01:51:57.049,window_switch,(2) Instagram - Google Chrome,21.3,84.0,01:00,→ New Tab - Google Chrome
+2026-03-14 01:51:57.049,mouse_click,New Tab - Google Chrome,21.3,84.0,01:00,btn:left
+2026-03-14 01:52:02.143,window_switch,New Tab - Google Chrome,8.0,83.6,01:00,→ Pinterest - India - Google Chrome
+2026-03-14 01:52:02.143,idle,Pinterest - India - Google Chrome,8.0,83.6,01:00,gap:5s
+2026-03-14 01:53:51.505,window_switch,Pinterest - India - Google Chrome,10.7,85.8,01:00,→ (83) Pinterest - Google Chrome
+2026-03-14 01:53:51.505,mouse_click,(83) Pinterest - Google Chrome,10.7,85.8,01:00,btn:left
+2026-03-14 01:53:54.615,window_switch,(83) Pinterest - Google Chrome,15.2,86.1,01:00,→ New Tab - Google Chrome
+2026-03-14 01:53:54.615,mouse_click,New Tab - Google Chrome,15.2,86.1,01:00,btn:left
+2026-03-14 01:53:57.640,window_switch,New Tab - Google Chrome,16.0,86.4,01:00,→ WhatsApp
+2026-03-14 01:53:57.640,mouse_click,WhatsApp,16.0,86.4,01:00,btn:left
+2026-03-14 01:54:03.025,window_switch,WhatsApp,11.0,86.7,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:54:03.025,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.0,86.7,01:00,gap:5s
+2026-03-14 01:54:05.551,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.8,86.7,01:00,btn:left
+2026-03-14 01:54:09.566,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,17.1,87.1,01:00,btn:left
+2026-03-14 01:54:14.733,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,17.1,87.5,01:00,→ report_generator.py - attention_pro - Visual Studio Code
+2026-03-14 01:54:14.733,idle,report_generator.py - attention_pro - Visual Studio Code,17.1,87.5,01:00,gap:5s
+2026-03-14 01:54:20.739,mouse_click,report_generator.py - attention_pro - Visual Studio Code,15.2,86.7,01:00,btn:left
+2026-03-14 01:54:24.654,window_switch,report_generator.py - attention_pro - Visual Studio Code,11.9,86.9,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:54:24.654,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.9,86.9,01:00,btn:left
+2026-03-14 01:54:31.048,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.5,83.0,01:00,→ report_generator.py - attention_pro - Visual Studio Code
+2026-03-14 01:54:31.048,idle,report_generator.py - attention_pro - Visual Studio Code,11.5,83.0,01:00,gap:5s
+2026-03-14 01:55:37.798,mouse_click,report_generator.py - attention_pro - Visual Studio Code,13.5,82.1,01:00,btn:left
+2026-03-14 01:55:40.739,window_switch,report_generator.py - attention_pro - Visual Studio Code,17.0,82.5,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:55:40.739,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,17.0,82.5,01:00,btn:left
+2026-03-14 01:55:42.584,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.4,82.5,01:00,btn:left
+2026-03-14 01:55:43.396,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.0,82.5,01:00,→ report_generator.py - attention_pro - Visual Studio Code
+2026-03-14 01:55:43.396,mouse_click,report_generator.py - attention_pro - Visual Studio Code,12.0,82.5,01:00,btn:left
+2026-03-14 01:55:46.253,keyboard,report_generator.py - attention_pro - Visual Studio Code,10.7,82.5,01:00,burst:10
+2026-03-14 01:55:51.427,keyboard,report_generator.py - attention_pro - Visual Studio Code,7.3,82.4,01:00,burst:10
+2026-03-14 01:55:56.150,mouse_click,report_generator.py - attention_pro - Visual Studio Code,8.5,82.4,01:00,btn:left
+2026-03-14 01:55:59.909,window_switch,report_generator.py - attention_pro - Visual Studio Code,13.6,82.6,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:55:59.909,mouse_click,dashboard.py - attention_pro - Visual Studio Code,13.6,82.6,01:00,btn:left
+2026-03-14 01:56:04.673,mouse_click,dashboard.py - attention_pro - Visual Studio Code,8.4,82.5,01:00,btn:left
+2026-03-14 01:56:10.144,idle,dashboard.py - attention_pro - Visual Studio Code,13.0,82.3,01:00,gap:5s
+2026-03-14 01:56:23.701,mouse_click,dashboard.py - attention_pro - Visual Studio Code,12.1,82.0,01:00,btn:left
+2026-03-14 01:56:26.838,window_switch,dashboard.py - attention_pro - Visual Studio Code,11.7,82.2,01:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:56:26.838,keyboard,● dashboard.py - attention_pro - Visual Studio Code,11.7,82.2,01:00,burst:10
+2026-03-14 01:56:33.129,window_switch,● dashboard.py - attention_pro - Visual Studio Code,13.7,83.0,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:56:33.129,mouse_click,dashboard.py - attention_pro - Visual Studio Code,13.7,83.0,01:00,btn:left
+2026-03-14 01:56:34.556,window_switch,dashboard.py - attention_pro - Visual Studio Code,20.8,83.3,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:56:34.556,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,20.8,83.3,01:00,btn:left
+2026-03-14 01:56:36.440,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.4,83.3,01:00,btn:left
+2026-03-14 01:56:41.749,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.6,83.6,01:00,gap:5s
+2026-03-14 01:56:46.794,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.8,83.6,01:00,btn:left
+2026-03-14 01:56:48.012,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,16.4,83.6,01:00,btn:left
+2026-03-14 01:56:51.971,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.1,83.6,01:00,btn:left
+2026-03-14 01:56:54.371,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.7,83.4,01:00,btn:left
+2026-03-14 01:56:56.279,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.1,83.6,01:00,btn:left
+2026-03-14 01:56:57.389,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.8,83.5,01:00,btn:left
+2026-03-14 01:56:58.742,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.0,83.5,01:00,btn:left
+2026-03-14 01:56:59.895,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,16.5,83.4,01:00,btn:left
+2026-03-14 01:57:05.151,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.8,83.3,01:00,gap:5s
+2026-03-14 01:57:17.148,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.9,82.2,01:00,btn:left
+2026-03-14 01:57:20.836,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.9,82.5,01:00,btn:left
+2026-03-14 01:57:26.024,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.2,82.7,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:57:26.024,idle,dashboard.py - attention_pro - Visual Studio Code,12.2,82.7,01:00,gap:5s
+2026-03-14 01:57:26.923,mouse_click,dashboard.py - attention_pro - Visual Studio Code,18.0,82.7,01:00,btn:left
+2026-03-14 01:57:28.269,window_switch,dashboard.py - attention_pro - Visual Studio Code,16.1,82.9,01:00,→ New Tab - Google Chrome
+2026-03-14 01:57:28.269,mouse_click,New Tab - Google Chrome,16.1,82.9,01:00,btn:left
+2026-03-14 01:57:29.138,window_switch,New Tab - Google Chrome,17.6,83.3,01:00,→ (2) Instagram - Google Chrome
+2026-03-14 01:57:29.138,mouse_click,(2) Instagram - Google Chrome,17.6,83.3,01:00,btn:left
+2026-03-14 01:57:32.526,window_switch,(2) Instagram - Google Chrome,18.3,86.1,01:00,→ (83) Pinterest - Google Chrome
+2026-03-14 01:57:32.526,mouse_click,(83) Pinterest - Google Chrome,18.3,86.1,01:00,btn:left
+2026-03-14 01:57:33.395,window_switch,(83) Pinterest - Google Chrome,23.6,86.5,01:00,→ (171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome
+2026-03-14 01:57:33.395,mouse_click,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,23.6,86.5,01:00,btn:left
+2026-03-14 01:57:35.104,window_switch,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,18.1,86.8,01:00,→ (2) Instagram - Google Chrome
+2026-03-14 01:57:35.104,mouse_click,(2) Instagram - Google Chrome,18.1,86.8,01:00,btn:left
+2026-03-14 01:57:40.200,window_switch,(2) Instagram - Google Chrome,17.6,86.1,01:00,→ (2) Instagram • Messages - Google Chrome
+2026-03-14 01:57:40.200,idle,(2) Instagram • Messages - Google Chrome,17.6,86.1,01:00,gap:5s
+2026-03-14 01:57:40.594,mouse_click,(2) Instagram • Messages - Google Chrome,16.1,85.9,01:00,btn:left
+2026-03-14 01:57:42.338,window_switch,(2) Instagram • Messages - Google Chrome,19.1,85.6,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:57:42.338,mouse_click,dashboard.py - attention_pro - Visual Studio Code,19.1,85.6,01:00,btn:left
+2026-03-14 01:57:47.825,window_switch,dashboard.py - attention_pro - Visual Studio Code,19.5,86.7,01:00,→ ChatGPT
+2026-03-14 01:57:47.825,idle,ChatGPT,19.5,86.7,01:00,gap:5s
+2026-03-14 01:57:52.952,mouse_click,ChatGPT,14.6,85.7,01:00,btn:left
+2026-03-14 01:57:58.000,window_switch,ChatGPT,12.5,85.9,01:00,→ (2) Instagram • Messages - Google Chrome
+2026-03-14 01:57:58.000,idle,(2) Instagram • Messages - Google Chrome,12.5,85.9,01:00,gap:5s
+2026-03-14 01:58:01.453,mouse_click,(2) Instagram • Messages - Google Chrome,17.1,85.7,01:00,btn:left
+2026-03-14 01:58:06.630,idle,(2) Instagram • Messages - Google Chrome,17.4,85.9,01:00,gap:5s
+2026-03-14 01:58:10.586,mouse_click,(2) Instagram • Messages - Google Chrome,16.6,85.9,01:00,btn:left
+2026-03-14 01:58:15.779,window_switch,(2) Instagram • Messages - Google Chrome,12.2,85.9,01:00,→ ChatGPT
+2026-03-14 01:58:15.779,idle,ChatGPT,12.2,85.9,01:00,gap:5s
+2026-03-14 01:58:23.633,keyboard,ChatGPT,13.5,85.9,01:00,burst:10
+2026-03-14 01:58:25.641,keyboard,ChatGPT,12.6,85.8,01:00,burst:10
+2026-03-14 01:58:25.946,keyboard,ChatGPT,16.6,85.8,01:00,burst:10
+2026-03-14 01:58:26.249,keyboard,ChatGPT,16.8,85.8,01:00,burst:10
+2026-03-14 01:58:29.724,keyboard,ChatGPT,9.7,85.7,01:00,burst:10
+2026-03-14 01:58:33.233,keyboard,ChatGPT,10.1,85.7,01:00,burst:10
+2026-03-14 01:58:38.253,idle,ChatGPT,8.7,85.6,01:00,gap:5s
+2026-03-14 01:58:52.428,mouse_click,ChatGPT,8.3,85.5,01:00,btn:left
+2026-03-14 01:58:53.945,window_switch,ChatGPT,13.3,85.7,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:58:53.945,mouse_click,dashboard.py - attention_pro - Visual Studio Code,13.3,85.7,01:00,btn:left
+2026-03-14 01:58:57.055,window_switch,dashboard.py - attention_pro - Visual Studio Code,11.3,85.9,01:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 01:58:57.055,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.3,85.9,01:00,btn:left
+2026-03-14 01:59:02.184,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.9,85.9,01:00,gap:5s
+2026-03-14 01:59:02.558,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.7,85.9,01:00,btn:left
+2026-03-14 01:59:04.273,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.2,85.9,01:00,btn:left
+2026-03-14 01:59:05.448,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.7,86.0,01:00,btn:left
+2026-03-14 01:59:10.876,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.0,86.2,01:00,gap:5s
+2026-03-14 01:59:11.079,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.9,86.2,01:00,btn:left
+2026-03-14 01:59:16.436,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.8,86.2,01:00,gap:5s
+2026-03-14 01:59:39.648,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.0,85.7,01:00,btn:left
+2026-03-14 01:59:44.832,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.0,85.7,01:00,gap:5s
+2026-03-14 01:59:47.941,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.5,85.6,01:00,btn:left
+2026-03-14 01:59:50.262,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.3,85.7,01:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 01:59:50.262,mouse_click,dashboard.py - attention_pro - Visual Studio Code,11.3,85.7,01:00,btn:left
+2026-03-14 01:59:52.718,window_switch,dashboard.py - attention_pro - Visual Studio Code,19.1,86.2,01:00,→ (2) Instagram • Messages - Google Chrome
+2026-03-14 01:59:52.718,mouse_click,(2) Instagram • Messages - Google Chrome,19.1,86.2,01:00,btn:left
+2026-03-14 01:59:54.312,window_switch,(2) Instagram • Messages - Google Chrome,14.2,86.0,01:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 01:59:54.312,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.2,86.0,01:00,btn:left
+2026-03-14 01:59:54.599,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,16.6,85.9,01:00,btn:left
+2026-03-14 01:59:55.480,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.1,85.9,01:00,btn:left
+2026-03-14 01:59:58.755,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.1,85.8,01:00,burst:10
+2026-03-14 02:00:01.292,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.3,85.7,02:00,burst:10
+2026-03-14 02:00:03.413,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.2,85.6,02:00,burst:10
+2026-03-14 02:00:07.432,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.2,85.5,02:00,btn:left
+2026-03-14 02:00:09.290,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.4,85.6,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:00:09.290,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.4,85.6,02:00,btn:left
+2026-03-14 02:00:11.395,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.7,85.8,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:00:11.395,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.7,85.8,02:00,burst:10
+2026-03-14 02:00:14.130,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.4,85.5,02:00,burst:10
+2026-03-14 02:00:16.877,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.1,85.3,02:00,burst:10
+2026-03-14 02:00:21.526,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.7,85.6,02:00,btn:left
+2026-03-14 02:00:24.849,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.5,85.6,02:00,→ Downloads - File Explorer
+2026-03-14 02:00:24.849,mouse_click,Downloads - File Explorer,9.5,85.6,02:00,btn:left
+2026-03-14 02:00:25.095,mouse_click,Downloads - File Explorer,11.6,85.6,02:00,btn:left
+2026-03-14 02:00:26.906,window_switch,Downloads - File Explorer,11.1,85.7,02:00,→ openthisss - File Explorer
+2026-03-14 02:00:26.906,mouse_click,openthisss - File Explorer,11.1,85.7,02:00,btn:left
+2026-03-14 02:00:27.146,mouse_click,openthisss - File Explorer,15.3,85.7,02:00,btn:left
+2026-03-14 02:00:29.397,window_switch,openthisss - File Explorer,11.3,85.7,02:00,→ attention_pro - File Explorer
+2026-03-14 02:00:29.397,mouse_click,attention_pro - File Explorer,11.3,85.7,02:00,btn:left
+2026-03-14 02:00:31.348,mouse_click,attention_pro - File Explorer,11.6,85.7,02:00,btn:left
+2026-03-14 02:00:32.600,mouse_click,attention_pro - File Explorer,15.5,85.7,02:00,btn:left
+2026-03-14 02:00:35.048,mouse_click,attention_pro - File Explorer,9.8,85.8,02:00,btn:left
+2026-03-14 02:00:37.277,window_switch,attention_pro - File Explorer,11.9,85.7,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:00:37.277,mouse_click,dashboard.py - attention_pro - Visual Studio Code,11.9,85.7,02:00,btn:left
+2026-03-14 02:00:42.346,window_switch,dashboard.py - attention_pro - Visual Studio Code,12.0,86.0,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:00:42.346,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.0,86.0,02:00,gap:5s
+2026-03-14 02:01:07.576,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.6,87.0,02:00,btn:left
+2026-03-14 02:01:12.896,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.0,87.2,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:01:12.896,idle,dashboard.py - attention_pro - Visual Studio Code,13.0,87.2,02:00,gap:5s
+2026-03-14 02:01:30.079,window_switch,dashboard.py - attention_pro - Visual Studio Code,11.2,85.6,02:00,→ Task View
+2026-03-14 02:01:30.079,mouse_click,Task View,11.2,85.6,02:00,btn:left
+2026-03-14 02:01:35.246,window_switch,Task View,11.2,85.6,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:01:35.246,idle,dashboard.py - attention_pro - Visual Studio Code,11.2,85.6,02:00,gap:5s
+2026-03-14 02:01:37.708,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.4,85.4,02:00,btn:left
+2026-03-14 02:01:42.839,window_switch,dashboard.py - attention_pro - Visual Studio Code,13.9,86.2,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:01:42.839,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.9,86.2,02:00,gap:5s
+2026-03-14 02:01:46.358,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,16.4,86.2,02:00,btn:left
+2026-03-14 02:01:49.111,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,16.5,86.4,02:00,→ WhatsApp
+2026-03-14 02:01:49.111,mouse_click,WhatsApp,16.5,86.4,02:00,btn:left
+2026-03-14 02:01:50.705,mouse_click,WhatsApp,20.6,86.9,02:00,btn:left
+2026-03-14 02:01:53.261,mouse_click,WhatsApp,22.1,86.9,02:00,btn:left
+2026-03-14 02:01:58.527,window_switch,WhatsApp,18.6,87.1,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:01:58.527,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,18.6,87.1,02:00,gap:5s
+2026-03-14 02:02:08.252,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,15.4,87.8,02:00,btn:left
+2026-03-14 02:02:10.516,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.6,87.9,02:00,btn:left
+2026-03-14 02:02:13.932,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.3,87.8,02:00,btn:left
+2026-03-14 02:02:16.993,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.6,87.7,02:00,btn:left
+2026-03-14 02:02:18.914,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.3,87.7,02:00,btn:left
+2026-03-14 02:02:19.874,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,19.4,86.0,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:02:19.874,mouse_click,dashboard.py - attention_pro - Visual Studio Code,19.4,86.0,02:00,btn:left
+2026-03-14 02:02:21.247,keyboard,dashboard.py - attention_pro - Visual Studio Code,13.4,85.9,02:00,burst:10
+2026-03-14 02:02:24.835,mouse_click,dashboard.py - attention_pro - Visual Studio Code,16.6,85.6,02:00,btn:left
+2026-03-14 02:02:26.033,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.4,85.5,02:00,btn:left
+2026-03-14 02:02:27.391,window_switch,dashboard.py - attention_pro - Visual Studio Code,15.2,85.8,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:02:27.391,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,15.2,85.8,02:00,btn:left
+2026-03-14 02:02:27.938,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.4,85.8,02:00,btn:left
+2026-03-14 02:02:33.157,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.7,85.8,02:00,gap:5s
+2026-03-14 02:02:37.848,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.4,85.7,02:00,btn:left
+2026-03-14 02:02:43.330,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.1,85.6,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:02:43.330,idle,dashboard.py - attention_pro - Visual Studio Code,10.1,85.6,02:00,gap:5s
+2026-03-14 02:04:13.768,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.2,84.4,02:00,btn:left
+2026-03-14 02:04:23.393,window_switch,dashboard.py - attention_pro - Visual Studio Code,10.9,85.1,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:04:23.393,idle,● dashboard.py - attention_pro - Visual Studio Code,10.9,85.1,02:00,gap:5s
+2026-03-14 02:04:26.351,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,15.7,85.1,02:00,btn:left
+2026-03-14 02:04:28.515,window_switch,● dashboard.py - attention_pro - Visual Studio Code,13.8,85.3,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:04:28.515,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.8,85.3,02:00,btn:left
+2026-03-14 02:04:33.596,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,14.2,85.6,02:00,gap:5s
+2026-03-14 02:04:36.274,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.8,85.5,02:00,btn:left
+2026-03-14 02:04:37.142,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,16.4,85.5,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:04:37.142,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,16.4,85.5,02:00,btn:left
+2026-03-14 02:04:40.338,window_switch,● dashboard.py - attention_pro - Visual Studio Code,11.2,85.6,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:04:40.338,mouse_click,dashboard.py - attention_pro - Visual Studio Code,11.2,85.6,02:00,btn:left
+2026-03-14 02:04:42.040,window_switch,dashboard.py - attention_pro - Visual Studio Code,13.4,85.6,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:04:42.040,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.4,85.6,02:00,btn:left
+2026-03-14 02:04:47.353,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.4,84.9,02:00,gap:5s
+2026-03-14 02:04:48.577,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.2,84.8,02:00,btn:left
+2026-03-14 02:04:53.989,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.6,84.8,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:04:53.989,idle,dashboard.py - attention_pro - Visual Studio Code,10.6,84.8,02:00,gap:5s
+2026-03-14 02:05:08.164,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.8,84.3,02:00,btn:left
+2026-03-14 02:05:10.200,window_switch,dashboard.py - attention_pro - Visual Studio Code,16.3,84.4,02:00,→ ChatGPT
+2026-03-14 02:05:10.200,mouse_click,ChatGPT,16.3,84.4,02:00,btn:left
+2026-03-14 02:05:13.630,window_switch,ChatGPT,14.1,84.4,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:05:13.630,mouse_click,dashboard.py - attention_pro - Visual Studio Code,14.1,84.4,02:00,btn:left
+2026-03-14 02:05:15.239,window_switch,dashboard.py - attention_pro - Visual Studio Code,17.9,84.5,02:00,→ ● analysis.py - attention_pro - Visual Studio Code
+2026-03-14 02:05:15.239,mouse_click,● analysis.py - attention_pro - Visual Studio Code,17.9,84.5,02:00,btn:left
+2026-03-14 02:05:16.592,mouse_click,● analysis.py - attention_pro - Visual Studio Code,16.2,84.5,02:00,btn:left
+2026-03-14 02:05:22.015,window_switch,● analysis.py - attention_pro - Visual Studio Code,12.5,84.3,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:05:22.015,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.5,84.3,02:00,gap:5s
+2026-03-14 02:05:32.422,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.2,84.7,02:00,→ Task View
+2026-03-14 02:05:32.422,mouse_click,Task View,13.2,84.7,02:00,btn:left
+2026-03-14 02:05:37.751,window_switch,Task View,13.8,84.9,02:00,→ WhatsApp
+2026-03-14 02:05:37.751,idle,WhatsApp,13.8,84.9,02:00,gap:5s
+2026-03-14 02:05:42.950,mouse_click,WhatsApp,13.9,84.6,02:00,btn:left
+2026-03-14 02:05:44.904,keyboard,WhatsApp,11.9,84.5,02:00,burst:10
+2026-03-14 02:05:45.565,keyboard,WhatsApp,13.2,84.6,02:00,burst:10
+2026-03-14 02:05:46.181,keyboard,WhatsApp,13.4,84.6,02:00,burst:10
+2026-03-14 02:05:47.395,keyboard,WhatsApp,10.2,84.6,02:00,burst:10
+2026-03-14 02:05:47.698,keyboard,WhatsApp,17.5,84.6,02:00,burst:10
+2026-03-14 02:05:48.001,keyboard,WhatsApp,15.2,84.6,02:00,burst:10
+2026-03-14 02:05:53.573,window_switch,WhatsApp,12.1,84.6,02:00,→ attention_pro - File Explorer
+2026-03-14 02:05:53.573,idle,attention_pro - File Explorer,12.1,84.6,02:00,gap:5s
+2026-03-14 02:05:54.005,mouse_click,attention_pro - File Explorer,10.8,84.6,02:00,btn:left
+2026-03-14 02:05:58.261,window_switch,attention_pro - File Explorer,10.9,84.5,02:00,→ WhatsApp
+2026-03-14 02:05:58.261,mouse_click,WhatsApp,10.9,84.5,02:00,btn:left
+2026-03-14 02:06:02.347,mouse_click,WhatsApp,25.0,88.1,02:00,btn:left
+2026-03-14 02:06:04.419,scroll,WhatsApp,17.8,88.2,02:00,ticks:5
+2026-03-14 02:06:04.452,scroll,WhatsApp,16.7,88.2,02:00,ticks:5
+2026-03-14 02:06:04.485,scroll,WhatsApp,12.2,88.2,02:00,ticks:5
+2026-03-14 02:06:04.536,scroll,WhatsApp,10.9,88.2,02:00,ticks:5
+2026-03-14 02:06:05.526,scroll,WhatsApp,12.7,88.3,02:00,ticks:5
+2026-03-14 02:06:05.562,scroll,WhatsApp,33.3,88.3,02:00,ticks:5
+2026-03-14 02:06:05.650,scroll,WhatsApp,27.6,88.2,02:00,ticks:5
+2026-03-14 02:06:05.741,scroll,WhatsApp,45.4,88.2,02:00,ticks:5
+2026-03-14 02:06:05.765,scroll,WhatsApp,37.5,88.2,02:00,ticks:5
+2026-03-14 02:06:06.454,scroll,WhatsApp,17.6,88.2,02:00,ticks:5
+2026-03-14 02:06:06.486,scroll,WhatsApp,15.9,88.2,02:00,ticks:5
+2026-03-14 02:06:06.529,scroll,WhatsApp,37.0,88.2,02:00,ticks:5
+2026-03-14 02:06:11.859,idle,WhatsApp,15.7,88.0,02:00,gap:5s
+2026-03-14 02:06:15.671,mouse_click,WhatsApp,12.5,87.9,02:00,btn:left
+2026-03-14 02:06:16.888,mouse_click,WhatsApp,13.9,87.9,02:00,btn:left
+2026-03-14 02:06:18.383,mouse_click,WhatsApp,13.3,87.9,02:00,btn:left
+2026-03-14 02:06:19.490,mouse_click,WhatsApp,15.1,88.0,02:00,btn:left
+2026-03-14 02:06:23.387,mouse_click,WhatsApp,14.1,88.0,02:00,btn:left
+2026-03-14 02:06:28.643,idle,WhatsApp,12.1,88.0,02:00,gap:5s
+2026-03-14 02:06:34.349,mouse_click,WhatsApp,8.9,88.0,02:00,btn:left
+2026-03-14 02:06:37.524,mouse_click,WhatsApp,16.1,87.1,02:00,btn:left
+2026-03-14 02:06:39.675,window_switch,WhatsApp,17.3,87.3,02:00,→ ChatGPT
+2026-03-14 02:06:39.675,mouse_click,ChatGPT,17.3,87.3,02:00,btn:left
+2026-03-14 02:06:43.205,window_switch,ChatGPT,15.4,87.5,02:00,→ ● analysis.py - attention_pro - Visual Studio Code
+2026-03-14 02:06:43.205,mouse_click,● analysis.py - attention_pro - Visual Studio Code,15.4,87.5,02:00,btn:left
+2026-03-14 02:06:47.789,window_switch,● analysis.py - attention_pro - Visual Studio Code,17.9,87.5,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:06:47.789,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,17.9,87.5,02:00,btn:left
+2026-03-14 02:06:49.596,keyboard,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.8,87.5,02:00,burst:10
+2026-03-14 02:06:52.842,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.5,87.1,02:00,btn:left
+2026-03-14 02:06:54.350,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,18.7,87.3,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:06:54.350,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,18.7,87.3,02:00,btn:left
+2026-03-14 02:06:58.437,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.9,86.8,02:00,burst:10
+2026-03-14 02:07:00.389,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.8,86.7,02:00,burst:10
+2026-03-14 02:07:08.892,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.0,86.5,02:00,gap:5s
+2026-03-14 02:07:22.829,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.5,86.4,02:00,burst:10
+2026-03-14 02:07:25.019,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.1,86.4,02:00,burst:10
+2026-03-14 02:07:27.032,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.7,86.5,02:00,burst:10
+2026-03-14 02:07:29.634,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.3,86.7,02:00,burst:10
+2026-03-14 02:07:31.909,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.4,86.7,02:00,burst:10
+2026-03-14 02:07:37.974,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.8,87.3,02:00,→ WhatsApp
+2026-03-14 02:07:37.974,idle,WhatsApp,10.8,87.3,02:00,gap:5s
+2026-03-14 02:07:48.785,mouse_click,WhatsApp,10.7,87.3,02:00,btn:left
+2026-03-14 02:07:51.305,mouse_click,WhatsApp,7.5,87.2,02:00,btn:left
+2026-03-14 02:07:56.410,keyboard,WhatsApp,10.3,87.0,02:00,burst:10
+2026-03-14 02:07:59.000,scroll,WhatsApp,7.8,86.8,02:00,ticks:5
+2026-03-14 02:07:59.029,scroll,WhatsApp,31.2,86.8,02:00,ticks:5
+2026-03-14 02:07:59.105,scroll,WhatsApp,14.9,86.8,02:00,ticks:5
+2026-03-14 02:07:59.183,scroll,WhatsApp,8.7,86.8,02:00,ticks:5
+2026-03-14 02:07:59.871,scroll,WhatsApp,25.8,86.9,02:00,ticks:5
+2026-03-14 02:07:59.882,scroll,WhatsApp,33.3,86.9,02:00,ticks:5
+2026-03-14 02:07:59.895,scroll,WhatsApp,0.0,86.9,02:00,ticks:5
+2026-03-14 02:07:59.908,scroll,WhatsApp,44.4,86.9,02:00,ticks:5
+2026-03-14 02:08:00.094,scroll,WhatsApp,30.8,87.0,02:00,ticks:5
+2026-03-14 02:08:00.124,scroll,WhatsApp,30.0,87.0,02:00,ticks:5
+2026-03-14 02:08:00.165,scroll,WhatsApp,30.8,87.0,02:00,ticks:5
+2026-03-14 02:08:01.378,mouse_click,WhatsApp,10.8,87.0,02:00,btn:left
+2026-03-14 02:08:02.090,mouse_click,WhatsApp,9.2,86.9,02:00,btn:left
+2026-03-14 02:08:03.113,scroll,WhatsApp,8.6,86.9,02:00,ticks:5
+2026-03-14 02:08:03.137,scroll,WhatsApp,23.5,87.0,02:00,ticks:5
+2026-03-14 02:08:03.175,scroll,WhatsApp,2.7,87.0,02:00,ticks:5
+2026-03-14 02:08:09.279,mouse_click,WhatsApp,13.7,87.0,02:00,btn:left
+2026-03-14 02:08:11.928,window_switch,WhatsApp,14.0,87.0,02:00,→ ● analysis.py - attention_pro - Visual Studio Code
+2026-03-14 02:08:11.928,mouse_click,● analysis.py - attention_pro - Visual Studio Code,14.0,87.0,02:00,btn:left
+2026-03-14 02:08:12.932,window_switch,● analysis.py - attention_pro - Visual Studio Code,12.7,87.1,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:08:12.932,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.7,87.1,02:00,btn:left
+2026-03-14 02:08:14.448,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.9,87.1,02:00,btn:left
+2026-03-14 02:08:19.731,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.7,87.1,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:08:19.731,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.7,87.1,02:00,gap:5s
+2026-03-14 02:08:44.679,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.9,88.4,02:00,btn:left
+2026-03-14 02:08:50.142,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.2,86.5,02:00,→ Task Switching
+2026-03-14 02:08:50.142,idle,Task Switching,14.2,86.5,02:00,gap:5s
+2026-03-14 02:08:57.378,window_switch,Task Switching,15.1,86.2,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:08:57.378,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,15.1,86.2,02:00,btn:left
+2026-03-14 02:09:02.799,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.4,85.9,02:00,gap:5s
+2026-03-14 02:09:51.134,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.0,87.5,02:00,→ Task View
+2026-03-14 02:09:51.134,mouse_click,Task View,14.0,87.5,02:00,btn:left
+2026-03-14 02:09:53.176,window_switch,Task View,15.4,87.6,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:09:53.176,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,15.4,87.6,02:00,btn:left
+2026-03-14 02:09:57.433,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,14.7,87.6,02:00,btn:left
+2026-03-14 02:09:58.549,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,19.1,87.4,02:00,btn:left
+2026-03-14 02:10:00.508,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,16.8,87.7,02:00,btn:left
+2026-03-14 02:10:03.127,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.0,88.0,02:00,btn:left
+2026-03-14 02:10:08.627,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,14.0,88.2,02:00,gap:5s
+2026-03-14 02:10:09.448,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.2,88.1,02:00,btn:left
+2026-03-14 02:10:12.025,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,17.1,88.1,02:00,→ ChatGPT
+2026-03-14 02:10:12.025,mouse_click,ChatGPT,17.1,88.1,02:00,btn:left
+2026-03-14 02:10:17.237,window_switch,ChatGPT,13.2,88.2,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:10:17.237,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.2,88.2,02:00,gap:5s
+2026-03-14 02:10:18.061,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.0,88.2,02:00,btn:left
+2026-03-14 02:10:23.331,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.0,88.2,02:00,gap:5s
+2026-03-14 02:10:24.978,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.5,88.2,02:00,btn:left
+2026-03-14 02:10:30.281,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.8,88.4,02:00,btn:left
+2026-03-14 02:10:34.986,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,14.0,88.3,02:00,btn:left
+2026-03-14 02:10:36.644,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,22.6,87.5,02:00,→ ● analysis.py - attention_pro - Visual Studio Code
+2026-03-14 02:10:36.644,mouse_click,● analysis.py - attention_pro - Visual Studio Code,22.6,87.5,02:00,btn:left
+2026-03-14 02:10:41.498,window_switch,● analysis.py - attention_pro - Visual Studio Code,17.5,87.8,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:10:41.498,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,17.5,87.8,02:00,btn:left
+2026-03-14 02:10:45.157,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,15.3,87.9,02:00,btn:left
+2026-03-14 02:10:49.094,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,15.2,88.4,02:00,btn:left
+2026-03-14 02:10:52.453,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,15.8,86.5,02:00,btn:left
+2026-03-14 02:10:55.949,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.3,86.5,02:00,btn:left
+2026-03-14 02:10:57.785,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.8,86.4,02:00,btn:left
+2026-03-14 02:10:57.976,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,23.0,86.5,02:00,→ WhatsApp
+2026-03-14 02:10:57.976,mouse_click,WhatsApp,23.0,86.5,02:00,btn:left
+2026-03-14 02:10:59.941,mouse_click,WhatsApp,20.5,86.6,02:00,btn:left
+2026-03-14 02:11:09.849,window_switch,WhatsApp,14.3,85.8,02:00,→ analysis.py - attention_pro - Visual Studio Code
+2026-03-14 02:11:09.849,mouse_click,analysis.py - attention_pro - Visual Studio Code,14.3,85.8,02:00,btn:left
+2026-03-14 02:11:12.064,window_switch,analysis.py - attention_pro - Visual Studio Code,17.5,86.3,02:00,→ ChatGPT
+2026-03-14 02:11:12.064,mouse_click,ChatGPT,17.5,86.3,02:00,btn:left
+2026-03-14 02:11:13.458,window_switch,ChatGPT,16.3,86.4,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:11:13.458,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,16.3,86.4,02:00,btn:left
+2026-03-14 02:11:17.316,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.7,86.5,02:00,→ analysis.py - attention_pro - Visual Studio Code
+2026-03-14 02:11:17.316,mouse_click,analysis.py - attention_pro - Visual Studio Code,12.7,86.5,02:00,btn:left
+2026-03-14 02:11:18.426,window_switch,analysis.py - attention_pro - Visual Studio Code,19.9,86.7,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:11:18.426,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,19.9,86.7,02:00,btn:left
+2026-03-14 02:11:20.547,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,22.7,86.7,02:00,btn:left
+2026-03-14 02:11:25.739,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.9,86.2,02:00,gap:5s
+2026-03-14 02:11:28.823,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.4,85.7,02:00,btn:left
+2026-03-14 02:11:33.563,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.4,85.5,02:00,→ analysis.py - attention_pro - Visual Studio Code
+2026-03-14 02:11:33.563,mouse_click,analysis.py - attention_pro - Visual Studio Code,13.4,85.5,02:00,btn:left
+2026-03-14 02:11:35.263,window_switch,analysis.py - attention_pro - Visual Studio Code,22.4,83.4,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:11:35.263,mouse_click,dashboard.py - attention_pro - Visual Studio Code,22.4,83.4,02:00,btn:left
+2026-03-14 02:11:35.753,keyboard,dashboard.py - attention_pro - Visual Studio Code,14.2,83.1,02:00,burst:10
+2026-03-14 02:11:41.092,mouse_click,dashboard.py - attention_pro - Visual Studio Code,15.2,83.6,02:00,btn:left
+2026-03-14 02:11:43.370,window_switch,dashboard.py - attention_pro - Visual Studio Code,15.3,83.8,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:11:43.370,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,15.3,83.8,02:00,btn:left
+2026-03-14 02:11:48.556,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,15.9,84.0,02:00,gap:5s
+2026-03-14 02:11:51.607,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,16.7,83.9,02:00,btn:left
+2026-03-14 02:11:54.955,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.5,83.9,02:00,btn:left
+2026-03-14 02:11:59.545,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.1,83.9,02:00,btn:left
+2026-03-14 02:12:04.927,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.1,83.8,02:00,→ WhatsApp
+2026-03-14 02:12:04.927,idle,WhatsApp,12.1,83.8,02:00,gap:5s
+2026-03-14 02:12:06.942,keyboard,WhatsApp,14.2,83.5,02:00,burst:10
+2026-03-14 02:12:08.331,keyboard,WhatsApp,12.5,83.5,02:00,burst:10
+2026-03-14 02:12:10.534,keyboard,WhatsApp,9.8,83.5,02:00,burst:10
+2026-03-14 02:12:17.121,idle,WhatsApp,8.9,83.3,02:00,gap:5s
+2026-03-14 02:12:18.670,mouse_click,WhatsApp,10.4,83.4,02:00,btn:left
+2026-03-14 02:12:20.014,mouse_click,WhatsApp,13.3,83.4,02:00,btn:left
+2026-03-14 02:12:21.850,mouse_click,WhatsApp,15.4,83.6,02:00,btn:left
+2026-03-14 02:12:26.403,keyboard,WhatsApp,9.0,83.4,02:00,burst:10
+2026-03-14 02:12:36.455,window_switch,WhatsApp,9.5,83.5,02:00,→ Task View
+2026-03-14 02:12:36.455,idle,Task View,9.5,83.5,02:00,gap:5s
+2026-03-14 02:12:37.503,mouse_click,Task View,9.0,83.5,02:00,btn:left
+2026-03-14 02:12:42.400,window_switch,Task View,9.7,83.8,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:12:42.400,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.7,83.8,02:00,btn:left
+2026-03-14 02:12:47.590,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.3,83.2,02:00,gap:5s
+2026-03-14 02:12:49.452,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,6.8,83.2,02:00,btn:left
+2026-03-14 02:12:51.559,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.4,83.2,02:00,btn:left
+2026-03-14 02:12:54.263,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.3,83.2,02:00,btn:left
+2026-03-14 02:12:55.952,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.2,83.3,02:00,btn:left
+2026-03-14 02:12:57.529,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.4,83.3,02:00,btn:left
+2026-03-14 02:13:02.973,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.5,83.3,02:00,gap:5s
+2026-03-14 02:13:12.348,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,6.4,83.4,02:00,btn:left
+2026-03-14 02:13:17.812,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,6.8,83.4,02:00,gap:5s
+2026-03-14 02:13:19.546,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.4,83.6,02:00,btn:left
+2026-03-14 02:13:24.955,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.3,83.9,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:13:24.955,idle,dashboard.py - attention_pro - Visual Studio Code,10.3,83.9,02:00,gap:5s
+2026-03-14 02:13:25.610,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.4,83.9,02:00,btn:left
+2026-03-14 02:13:29.603,window_switch,dashboard.py - attention_pro - Visual Studio Code,7.9,83.9,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:13:29.603,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.9,83.9,02:00,btn:left
+2026-03-14 02:13:31.774,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.4,84.2,02:00,btn:left
+2026-03-14 02:13:37.223,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.3,84.1,02:00,gap:5s
+2026-03-14 02:13:38.378,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.0,84.1,02:00,btn:left
+2026-03-14 02:13:40.115,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.2,84.0,02:00,btn:left
+2026-03-14 02:13:43.789,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.6,83.6,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:13:43.789,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.6,83.6,02:00,btn:left
+2026-03-14 02:13:48.947,window_switch,dashboard.py - attention_pro - Visual Studio Code,9.2,82.0,02:00,→ Task Switching
+2026-03-14 02:13:48.947,idle,Task Switching,9.2,82.0,02:00,gap:5s
+2026-03-14 02:13:52.134,window_switch,Task Switching,8.4,81.9,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:13:52.134,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.4,81.9,02:00,btn:left
+2026-03-14 02:13:57.595,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.2,81.7,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:13:57.595,idle,dashboard.py - attention_pro - Visual Studio Code,12.2,81.7,02:00,gap:5s
+2026-03-14 02:15:01.473,mouse_click,dashboard.py - attention_pro - Visual Studio Code,8.1,82.6,02:00,btn:left
+2026-03-14 02:15:06.832,window_switch,dashboard.py - attention_pro - Visual Studio Code,7.6,82.6,02:00,→ Voice call
+2026-03-14 02:15:06.832,idle,Voice call,7.6,82.6,02:00,gap:5s
+2026-03-14 02:16:04.014,window_switch,Voice call,9.1,81.7,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:16:04.014,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.1,81.7,02:00,btn:left
+2026-03-14 02:16:09.034,idle,dashboard.py - attention_pro - Visual Studio Code,9.7,82.0,02:00,gap:5s
+2026-03-14 02:16:15.719,mouse_click,dashboard.py - attention_pro - Visual Studio Code,12.3,82.0,02:00,btn:left
+2026-03-14 02:16:20.724,idle,dashboard.py - attention_pro - Visual Studio Code,9.2,81.9,02:00,gap:5s
+2026-03-14 02:16:29.674,mouse_click,dashboard.py - attention_pro - Visual Studio Code,8.9,81.8,02:00,btn:left
+2026-03-14 02:16:36.075,window_switch,dashboard.py - attention_pro - Visual Studio Code,8.9,82.0,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:16:36.075,keyboard,● dashboard.py - attention_pro - Visual Studio Code,8.9,82.0,02:00,burst:10
+2026-03-14 02:16:41.104,window_switch,● dashboard.py - attention_pro - Visual Studio Code,10.4,82.6,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:16:41.104,idle,dashboard.py - attention_pro - Visual Studio Code,10.4,82.6,02:00,gap:5s
+2026-03-14 02:16:50.059,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.3,82.2,02:00,btn:left
+2026-03-14 02:16:54.406,window_switch,dashboard.py - attention_pro - Visual Studio Code,10.8,82.3,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:16:54.406,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.8,82.3,02:00,btn:left
+2026-03-14 02:16:58.770,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.0,82.5,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:16:58.770,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.0,82.5,02:00,btn:left
+2026-03-14 02:17:03.062,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.6,82.2,02:00,btn:left
+2026-03-14 02:17:04.463,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.4,81.9,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:17:04.463,mouse_click,dashboard.py - attention_pro - Visual Studio Code,13.4,81.9,02:00,btn:left
+2026-03-14 02:17:05.275,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.0,81.8,02:00,btn:left
+2026-03-14 02:17:09.617,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.7,81.6,02:00,btn:left
+2026-03-14 02:17:11.353,window_switch,dashboard.py - attention_pro - Visual Studio Code,9.0,81.7,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:17:11.353,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.0,81.7,02:00,btn:left
+2026-03-14 02:17:15.831,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.7,81.8,02:00,btn:left
+2026-03-14 02:17:19.252,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,6.2,81.8,02:00,btn:left
+2026-03-14 02:17:20.044,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.2,81.9,02:00,→ ChatGPT
+2026-03-14 02:17:20.044,mouse_click,ChatGPT,10.2,81.9,02:00,btn:left
+2026-03-14 02:17:21.010,window_switch,ChatGPT,14.0,82.2,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:17:21.010,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.0,82.2,02:00,btn:left
+2026-03-14 02:17:24.114,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.7,82.3,02:00,btn:left
+2026-03-14 02:17:25.544,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,15.3,82.3,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:17:25.544,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,15.3,82.3,02:00,btn:left
+2026-03-14 02:17:29.231,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.4,82.3,02:00,btn:left
+2026-03-14 02:17:32.457,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.1,82.2,02:00,btn:left
+2026-03-14 02:17:39.302,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,6.4,81.6,02:00,btn:left
+2026-03-14 02:17:40.350,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,14.8,82.0,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:17:40.350,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.8,82.0,02:00,btn:left
+2026-03-14 02:17:41.095,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.4,82.0,02:00,burst:10
+2026-03-14 02:17:43.383,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.5,81.9,02:00,btn:left
+2026-03-14 02:17:45.154,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.8,81.9,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:17:45.154,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.8,81.9,02:00,btn:left
+2026-03-14 02:17:49.034,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.0,82.0,02:00,btn:left
+2026-03-14 02:17:54.507,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.4,82.1,02:00,gap:5s
+2026-03-14 02:17:59.163,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,6.9,81.8,02:00,btn:left
+2026-03-14 02:18:04.254,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.0,82.0,02:00,gap:5s
+2026-03-14 02:18:04.474,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.6,82.0,02:00,btn:left
+2026-03-14 02:18:05.683,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.9,82.0,02:00,btn:left
+2026-03-14 02:18:09.442,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.2,82.0,02:00,btn:left
+2026-03-14 02:18:10.716,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.9,82.0,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:18:10.716,mouse_click,dashboard.py - attention_pro - Visual Studio Code,8.9,82.0,02:00,btn:left
+2026-03-14 02:18:11.912,window_switch,dashboard.py - attention_pro - Visual Studio Code,10.9,82.0,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:18:11.912,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.9,82.0,02:00,btn:left
+2026-03-14 02:18:12.973,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,5.1,82.0,02:00,btn:left
+2026-03-14 02:18:15.932,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.3,81.6,02:00,btn:left
+2026-03-14 02:18:18.378,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.8,81.4,02:00,burst:10
+2026-03-14 02:18:21.174,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.4,81.4,02:00,burst:10
+2026-03-14 02:18:24.676,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,5.3,81.3,02:00,burst:10
+2026-03-14 02:18:27.694,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.8,81.3,02:00,burst:10
+2026-03-14 02:18:30.357,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.5,81.4,02:00,burst:10
+2026-03-14 02:18:36.192,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.6,81.4,02:00,btn:left
+2026-03-14 02:18:39.518,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,5.9,81.3,02:00,btn:left
+2026-03-14 02:18:40.202,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,5.9,81.3,02:00,burst:10
+2026-03-14 02:18:43.909,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.3,81.7,02:00,btn:left
+2026-03-14 02:18:45.184,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.1,81.7,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:18:45.184,mouse_click,dashboard.py - attention_pro - Visual Studio Code,12.1,81.7,02:00,btn:left
+2026-03-14 02:18:47.269,window_switch,dashboard.py - attention_pro - Visual Studio Code,12.1,81.9,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:18:47.269,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.1,81.9,02:00,btn:left
+2026-03-14 02:18:52.337,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.7,82.1,02:00,→ (2) Instagram • Messages - Google Chrome
+2026-03-14 02:18:52.337,idle,(2) Instagram • Messages - Google Chrome,8.7,82.1,02:00,gap:5s
+2026-03-14 02:18:53.550,mouse_click,(2) Instagram • Messages - Google Chrome,11.7,82.2,02:00,btn:left
+2026-03-14 02:18:56.344,window_switch,(2) Instagram • Messages - Google Chrome,11.2,82.4,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:18:56.344,mouse_click,dashboard.py - attention_pro - Visual Studio Code,11.2,82.4,02:00,btn:left
+2026-03-14 02:19:01.442,window_switch,dashboard.py - attention_pro - Visual Studio Code,8.9,81.7,02:00,→ WhatsApp
+2026-03-14 02:19:01.442,idle,WhatsApp,8.9,81.7,02:00,gap:5s
+2026-03-14 02:19:06.373,mouse_click,WhatsApp,6.7,81.7,02:00,btn:left
+2026-03-14 02:19:11.653,window_switch,WhatsApp,6.3,81.5,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:19:11.653,idle,dashboard.py - attention_pro - Visual Studio Code,6.3,81.5,02:00,gap:5s
+2026-03-14 02:19:25.149,mouse_click,dashboard.py - attention_pro - Visual Studio Code,8.3,81.9,02:00,btn:left
+2026-03-14 02:19:25.904,window_switch,dashboard.py - attention_pro - Visual Studio Code,12.4,81.9,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:19:25.904,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.4,81.9,02:00,btn:left
+2026-03-14 02:19:31.035,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.5,82.1,02:00,→ WhatsApp
+2026-03-14 02:19:31.035,idle,WhatsApp,8.5,82.1,02:00,gap:5s
+2026-03-14 02:19:42.839,mouse_click,WhatsApp,6.5,81.8,02:00,btn:left
+2026-03-14 02:19:44.456,mouse_click,WhatsApp,14.1,82.0,02:00,btn:left
+2026-03-14 02:19:51.943,idle,WhatsApp,7.9,82.3,02:00,gap:5s
+2026-03-14 02:20:06.081,window_switch,WhatsApp,6.2,81.9,02:00,→ Task View
+2026-03-14 02:20:06.081,mouse_click,Task View,6.2,81.9,02:00,btn:left
+2026-03-14 02:20:09.405,window_switch,Task View,6.7,81.9,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:20:09.405,mouse_click,dashboard.py - attention_pro - Visual Studio Code,6.7,81.9,02:00,btn:left
+2026-03-14 02:20:10.451,window_switch,dashboard.py - attention_pro - Visual Studio Code,18.7,82.0,02:00,→ report_generator.py - attention_pro - Visual Studio Code
+2026-03-14 02:20:10.451,mouse_click,report_generator.py - attention_pro - Visual Studio Code,18.7,82.0,02:00,btn:left
+2026-03-14 02:20:12.174,window_switch,report_generator.py - attention_pro - Visual Studio Code,9.9,82.0,02:00,→ ● monitor.py - attention_pro - Visual Studio Code
+2026-03-14 02:20:12.174,mouse_click,● monitor.py - attention_pro - Visual Studio Code,9.9,82.0,02:00,btn:left
+2026-03-14 02:20:13.805,window_switch,● monitor.py - attention_pro - Visual Studio Code,8.6,81.7,02:00,→ ChatGPT
+2026-03-14 02:20:13.805,mouse_click,ChatGPT,8.6,81.7,02:00,btn:left
+2026-03-14 02:20:14.637,window_switch,ChatGPT,11.7,81.9,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:20:14.637,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.7,81.9,02:00,btn:left
+2026-03-14 02:20:17.207,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,16.6,82.2,02:00,→ (2) Instagram • Messages - Google Chrome
+2026-03-14 02:20:17.207,mouse_click,(2) Instagram • Messages - Google Chrome,16.6,82.2,02:00,btn:left
+2026-03-14 02:20:18.177,window_switch,(2) Instagram • Messages - Google Chrome,9.5,82.5,02:00,→ (171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome
+2026-03-14 02:20:18.177,mouse_click,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,9.5,82.5,02:00,btn:left
+2026-03-14 02:20:23.554,window_switch,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,8.9,82.9,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:20:23.554,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.9,82.9,02:00,gap:5s
+2026-03-14 02:20:29.799,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.6,82.6,02:00,btn:left
+2026-03-14 02:20:31.715,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.8,82.8,02:00,→ New Tab - Google Chrome
+2026-03-14 02:20:31.715,mouse_click,New Tab - Google Chrome,8.8,82.8,02:00,btn:left
+2026-03-14 02:20:36.377,window_switch,New Tab - Google Chrome,16.8,85.7,02:00,→ (83) Pinterest - Google Chrome
+2026-03-14 02:20:36.377,mouse_click,(83) Pinterest - Google Chrome,16.8,85.7,02:00,btn:left
+2026-03-14 02:20:37.246,window_switch,(83) Pinterest - Google Chrome,31.0,85.7,02:00,→ (2) Instagram • Messages - Google Chrome
+2026-03-14 02:20:37.246,mouse_click,(2) Instagram • Messages - Google Chrome,31.0,85.7,02:00,btn:left
+2026-03-14 02:20:38.697,window_switch,(2) Instagram • Messages - Google Chrome,12.6,85.8,02:00,→ (171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome
+2026-03-14 02:20:38.697,mouse_click,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,12.6,85.8,02:00,btn:left
+2026-03-14 02:20:40.014,window_switch,(171) Jhol | Coke Studio Pakistan | Season 15 | Maanu x Annural Khalid - YouTube - Google Chrome,21.0,85.0,02:00,→ (2) Instagram • Messages - Google Chrome
+2026-03-14 02:20:40.014,mouse_click,(2) Instagram • Messages - Google Chrome,21.0,85.0,02:00,btn:left
+2026-03-14 02:20:44.541,window_switch,(2) Instagram • Messages - Google Chrome,19.4,86.7,02:00,→ (2) Instagram - Google Chrome
+2026-03-14 02:20:44.541,mouse_click,(2) Instagram - Google Chrome,19.4,86.7,02:00,btn:left
+2026-03-14 02:20:50.011,idle,(2) Instagram - Google Chrome,14.6,86.4,02:00,gap:5s
+2026-03-14 02:20:59.115,mouse_click,(2) Instagram - Google Chrome,10.9,86.6,02:00,btn:left
+2026-03-14 02:21:00.145,mouse_click,(2) Instagram - Google Chrome,7.1,86.6,02:00,btn:left
+2026-03-14 02:21:03.812,mouse_click,(2) Instagram - Google Chrome,6.8,87.1,02:00,btn:left
+2026-03-14 02:21:08.904,idle,(2) Instagram - Google Chrome,8.8,87.2,02:00,gap:5s
+2026-03-14 02:21:10.889,mouse_click,(2) Instagram - Google Chrome,7.0,87.2,02:00,btn:left
+2026-03-14 02:21:16.071,idle,(2) Instagram - Google Chrome,7.9,87.5,02:00,gap:5s
+2026-03-14 02:21:54.146,mouse_click,(2) Instagram - Google Chrome,4.5,83.8,02:00,btn:left
+2026-03-14 02:21:54.821,window_switch,(2) Instagram - Google Chrome,8.6,84.0,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:21:54.821,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.6,84.0,02:00,btn:left
+2026-03-14 02:21:55.887,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.4,84.2,02:00,→ (2) Instagram - Google Chrome
+2026-03-14 02:21:55.887,mouse_click,(2) Instagram - Google Chrome,11.4,84.2,02:00,btn:left
+2026-03-14 02:22:00.950,window_switch,(2) Instagram - Google Chrome,5.2,84.7,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:22:00.950,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,5.2,84.7,02:00,gap:5s
+2026-03-14 02:22:43.526,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.5,85.2,02:00,→ Task View
+2026-03-14 02:22:43.526,mouse_click,Task View,9.5,85.2,02:00,btn:left
+2026-03-14 02:22:47.292,mouse_click,Task View,10.6,85.4,02:00,btn:left
+2026-03-14 02:22:50.998,window_switch,Task View,12.2,85.0,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:22:50.998,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.2,85.0,02:00,btn:left
+2026-03-14 02:22:55.206,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.7,83.5,02:00,btn:left
+2026-03-14 02:23:00.306,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.6,83.5,02:00,gap:5s
+2026-03-14 02:23:04.666,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.7,83.5,02:00,btn:left
+2026-03-14 02:23:07.777,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.1,83.5,02:00,→ ● monitor.py - attention_pro - Visual Studio Code
+2026-03-14 02:23:07.777,mouse_click,● monitor.py - attention_pro - Visual Studio Code,10.1,83.5,02:00,btn:left
+2026-03-14 02:23:13.042,window_switch,● monitor.py - attention_pro - Visual Studio Code,11.2,83.6,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:23:13.042,idle,dashboard.py - attention_pro - Visual Studio Code,11.2,83.6,02:00,gap:5s
+2026-03-14 02:25:11.607,mouse_click,dashboard.py - attention_pro - Visual Studio Code,6.8,82.9,02:00,btn:left
+2026-03-14 02:25:16.862,window_switch,dashboard.py - attention_pro - Visual Studio Code,6.7,83.7,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:25:16.862,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.7,83.7,02:00,gap:5s
+2026-03-14 02:25:52.914,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.3,83.4,02:00,btn:left
+2026-03-14 02:25:56.317,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.8,83.6,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:25:56.317,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.8,83.6,02:00,btn:left
+2026-03-14 02:26:01.517,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.3,81.9,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:26:01.517,idle,dashboard.py - attention_pro - Visual Studio Code,9.3,81.9,02:00,gap:5s
+2026-03-14 02:26:23.591,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.2,81.8,02:00,btn:left
+2026-03-14 02:26:25.835,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.3,81.8,02:00,btn:left
+2026-03-14 02:26:29.231,mouse_click,dashboard.py - attention_pro - Visual Studio Code,4.8,81.9,02:00,btn:left
+2026-03-14 02:26:34.350,mouse_click,dashboard.py - attention_pro - Visual Studio Code,5.1,81.8,02:00,btn:left
+2026-03-14 02:26:35.958,window_switch,dashboard.py - attention_pro - Visual Studio Code,7.0,82.0,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:26:35.958,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,7.0,82.0,02:00,btn:left
+2026-03-14 02:26:38.207,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.0,82.2,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:26:38.207,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.0,82.2,02:00,btn:left
+2026-03-14 02:26:44.793,window_switch,dashboard.py - attention_pro - Visual Studio Code,7.0,82.6,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:26:44.793,idle,● dashboard.py - attention_pro - Visual Studio Code,7.0,82.6,02:00,gap:5s
+2026-03-14 02:27:59.180,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,7.6,81.9,02:00,btn:left
+2026-03-14 02:28:04.269,idle,● dashboard.py - attention_pro - Visual Studio Code,7.2,82.0,02:00,gap:5s
+2026-03-14 02:29:08.384,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,7.0,81.6,02:00,btn:left
+2026-03-14 02:29:11.765,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,5.7,81.6,02:00,btn:left
+2026-03-14 02:29:17.091,idle,● dashboard.py - attention_pro - Visual Studio Code,6.9,81.6,02:00,gap:5s
+2026-03-14 02:29:22.557,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,4.2,81.5,02:00,btn:left
+2026-03-14 02:29:27.505,keyboard,● dashboard.py - attention_pro - Visual Studio Code,7.9,81.4,02:00,burst:10
+2026-03-14 02:29:35.528,keyboard,● dashboard.py - attention_pro - Visual Studio Code,15.8,82.5,02:00,burst:10
+2026-03-14 02:29:44.536,window_switch,● dashboard.py - attention_pro - Visual Studio Code,8.6,82.6,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:29:44.536,idle,dashboard.py - attention_pro - Visual Studio Code,8.6,82.6,02:00,gap:5s
+2026-03-14 02:29:45.449,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.7,82.6,02:00,btn:left
+2026-03-14 02:29:47.141,window_switch,dashboard.py - attention_pro - Visual Studio Code,14.2,83.0,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:29:47.141,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,14.2,83.0,02:00,btn:left
+2026-03-14 02:29:52.154,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,12.4,83.0,02:00,gap:5s
+2026-03-14 02:29:59.700,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.8,81.2,02:00,btn:left
+2026-03-14 02:30:03.209,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.6,81.3,02:00,btn:left
+2026-03-14 02:30:05.122,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.7,81.4,02:00,btn:left
+2026-03-14 02:30:06.120,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,20.3,81.9,02:00,→ ChatGPT
+2026-03-14 02:30:06.120,scroll,ChatGPT,20.3,81.9,02:00,ticks:5
+2026-03-14 02:30:06.155,scroll,ChatGPT,11.9,81.9,02:00,ticks:5
+2026-03-14 02:30:07.591,mouse_click,ChatGPT,14.3,81.5,02:00,btn:left
+2026-03-14 02:30:11.181,window_switch,ChatGPT,11.6,81.9,02:00,→ GitHub Push Commands
+2026-03-14 02:30:11.181,scroll,GitHub Push Commands,11.6,81.9,02:00,ticks:5
+2026-03-14 02:30:11.216,scroll,GitHub Push Commands,20.0,81.9,02:00,ticks:5
+2026-03-14 02:30:11.250,scroll,GitHub Push Commands,9.5,81.9,02:00,ticks:5
+2026-03-14 02:30:11.288,scroll,GitHub Push Commands,28.6,81.9,02:00,ticks:5
+2026-03-14 02:30:11.379,scroll,GitHub Push Commands,14.9,81.9,02:00,ticks:5
+2026-03-14 02:30:11.457,scroll,GitHub Push Commands,8.3,81.9,02:00,ticks:5
+2026-03-14 02:30:11.543,scroll,GitHub Push Commands,7.9,81.9,02:00,ticks:5
+2026-03-14 02:30:11.579,scroll,GitHub Push Commands,6.1,81.9,02:00,ticks:5
+2026-03-14 02:30:11.614,scroll,GitHub Push Commands,36.1,81.9,02:00,ticks:5
+2026-03-14 02:30:11.650,scroll,GitHub Push Commands,9.8,81.9,02:00,ticks:5
+2026-03-14 02:30:11.740,scroll,GitHub Push Commands,12.0,81.9,02:00,ticks:5
+2026-03-14 02:30:11.819,scroll,GitHub Push Commands,8.9,81.9,02:00,ticks:5
+2026-03-14 02:30:12.703,mouse_click,GitHub Push Commands,9.2,81.9,02:00,btn:left
+2026-03-14 02:30:13.878,window_switch,GitHub Push Commands,10.8,82.0,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:30:13.878,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.8,82.0,02:00,btn:left
+2026-03-14 02:30:19.118,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.9,82.0,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:30:19.118,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.9,82.0,02:00,gap:5s
+2026-03-14 02:30:19.867,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.7,81.9,02:00,btn:left
+2026-03-14 02:30:24.481,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.0,81.8,02:00,btn:left
+2026-03-14 02:30:25.681,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.6,81.8,02:00,btn:left
+2026-03-14 02:30:27.328,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.8,81.8,02:00,btn:left
+2026-03-14 02:30:30.709,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.5,81.6,02:00,btn:left
+2026-03-14 02:30:32.680,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.9,81.6,02:00,btn:left
+2026-03-14 02:30:34.588,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.4,81.7,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:30:34.588,mouse_click,dashboard.py - attention_pro - Visual Studio Code,11.4,81.7,02:00,btn:left
+2026-03-14 02:30:42.621,idle,dashboard.py - attention_pro - Visual Studio Code,11.2,81.4,02:00,gap:5s
+2026-03-14 02:31:08.514,keyboard,dashboard.py - attention_pro - Visual Studio Code,10.1,80.6,02:00,burst:10
+2026-03-14 02:31:11.042,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.0,80.5,02:00,btn:left
+2026-03-14 02:31:14.106,navigation,dashboard.py - attention_pro - Visual Studio Code,7.9,79.8,02:00,arrow:up:count:5
+2026-03-14 02:31:15.536,navigation,dashboard.py - attention_pro - Visual Studio Code,4.4,79.8,02:00,arrow:down:count:5
+2026-03-14 02:31:21.864,window_switch,dashboard.py - attention_pro - Visual Studio Code,9.4,81.0,02:00,→ Streamlit and 1 more page - Personal - Microsoft​ Edge
+2026-03-14 02:31:21.864,mouse_click,Streamlit and 1 more page - Personal - Microsoft​ Edge,9.4,81.0,02:00,btn:left
+2026-03-14 02:31:27.001,window_switch,Streamlit and 1 more page - Personal - Microsoft​ Edge,8.9,81.0,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:31:27.001,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.9,81.0,02:00,gap:5s
+2026-03-14 02:31:37.706,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.7,80.9,02:00,btn:left
+2026-03-14 02:31:38.730,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,18.4,80.9,02:00,btn:left
+2026-03-14 02:31:39.934,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,18.1,80.9,02:00,btn:left
+2026-03-14 02:31:45.361,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,9.5,81.1,02:00,gap:5s
+2026-03-14 02:31:55.297,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.3,80.9,02:00,btn:left
+2026-03-14 02:32:00.663,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,8.6,80.8,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:32:00.663,idle,dashboard.py - attention_pro - Visual Studio Code,8.6,80.8,02:00,gap:5s
+2026-03-14 02:32:08.787,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.0,80.5,02:00,btn:left
+2026-03-14 02:32:13.971,window_switch,dashboard.py - attention_pro - Visual Studio Code,5.5,81.1,02:00,→ Task View
+2026-03-14 02:32:13.971,idle,Task View,5.5,81.1,02:00,gap:5s
+2026-03-14 02:32:14.240,mouse_click,Task View,7.8,81.1,02:00,btn:left
+2026-03-14 02:32:14.816,mouse_click,Task View,6.1,81.2,02:00,btn:left
+2026-03-14 02:32:17.855,mouse_click,Task View,10.0,81.3,02:00,btn:left
+2026-03-14 02:32:23.123,window_switch,Task View,10.9,81.0,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:32:23.123,idle,dashboard.py - attention_pro - Visual Studio Code,10.9,81.0,02:00,gap:5s
+2026-03-14 02:34:04.722,mouse_click,dashboard.py - attention_pro - Visual Studio Code,5.3,79.8,02:00,btn:left
+2026-03-14 02:34:07.314,window_switch,dashboard.py - attention_pro - Visual Studio Code,6.1,80.1,02:00,→ WhatsApp
+2026-03-14 02:34:07.314,scroll,WhatsApp,6.1,80.1,02:00,ticks:5
+2026-03-14 02:34:07.346,scroll,WhatsApp,9.1,80.1,02:00,ticks:5
+2026-03-14 02:34:07.386,scroll,WhatsApp,7.9,80.1,02:00,ticks:5
+2026-03-14 02:34:07.416,scroll,WhatsApp,10.0,80.1,02:00,ticks:5
+2026-03-14 02:34:07.525,scroll,WhatsApp,8.9,80.1,02:00,ticks:5
+2026-03-14 02:34:08.817,mouse_click,WhatsApp,6.5,80.2,02:00,btn:left
+2026-03-14 02:34:14.199,window_switch,WhatsApp,5.0,80.0,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:34:14.199,idle,dashboard.py - attention_pro - Visual Studio Code,5.0,80.0,02:00,gap:5s
+2026-03-14 02:34:56.573,mouse_click,dashboard.py - attention_pro - Visual Studio Code,5.7,79.7,02:00,btn:left
+2026-03-14 02:34:59.962,mouse_click,dashboard.py - attention_pro - Visual Studio Code,5.9,79.7,02:00,btn:left
+2026-03-14 02:35:00.738,window_switch,dashboard.py - attention_pro - Visual Studio Code,10.7,79.9,02:00,→ GitHub Push Commands
+2026-03-14 02:35:00.738,mouse_click,GitHub Push Commands,10.7,79.9,02:00,btn:left
+2026-03-14 02:35:02.154,window_switch,GitHub Push Commands,16.9,80.1,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:35:02.154,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,16.9,80.1,02:00,btn:left
+2026-03-14 02:35:04.730,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.3,80.3,02:00,btn:left
+2026-03-14 02:35:09.731,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.8,80.7,02:00,gap:5s
+2026-03-14 02:35:58.570,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.5,79.7,02:00,btn:left
+2026-03-14 02:36:01.189,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.9,79.7,02:00,btn:left
+2026-03-14 02:36:03.260,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.2,79.7,02:00,btn:left
+2026-03-14 02:36:05.083,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.4,79.7,02:00,btn:left
+2026-03-14 02:36:06.072,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.4,79.8,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:36:06.072,mouse_click,dashboard.py - attention_pro - Visual Studio Code,13.4,79.8,02:00,btn:left
+2026-03-14 02:36:07.098,keyboard,dashboard.py - attention_pro - Visual Studio Code,7.2,80.0,02:00,burst:10
+2026-03-14 02:36:14.782,idle,dashboard.py - attention_pro - Visual Studio Code,9.5,79.9,02:00,gap:5s
+2026-03-14 02:36:17.443,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.0,79.8,02:00,btn:left
+2026-03-14 02:36:18.362,keyboard,dashboard.py - attention_pro - Visual Studio Code,8.3,79.8,02:00,burst:10
+2026-03-14 02:36:27.258,window_switch,dashboard.py - attention_pro - Visual Studio Code,10.6,80.1,02:00,→ Streamlit and 1 more page - Personal - Microsoft​ Edge
+2026-03-14 02:36:27.258,mouse_click,Streamlit and 1 more page - Personal - Microsoft​ Edge,10.6,80.1,02:00,btn:left
+2026-03-14 02:36:32.604,window_switch,Streamlit and 1 more page - Personal - Microsoft​ Edge,16.8,80.8,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:36:32.604,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,16.8,80.8,02:00,gap:5s
+2026-03-14 02:36:32.980,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,33.4,80.8,02:00,btn:left
+2026-03-14 02:36:38.192,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,20.1,80.4,02:00,gap:5s
+2026-03-14 02:36:38.720,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,18.2,80.4,02:00,btn:left
+2026-03-14 02:36:43.781,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,6.5,80.1,02:00,gap:5s
+2026-03-14 02:36:45.639,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,7.2,80.0,02:00,btn:left
+2026-03-14 02:36:50.911,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,11.0,80.1,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:36:50.911,idle,dashboard.py - attention_pro - Visual Studio Code,11.0,80.1,02:00,gap:5s
+2026-03-14 02:37:04.259,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.2,79.8,02:00,btn:left
+2026-03-14 02:37:10.832,window_switch,dashboard.py - attention_pro - Visual Studio Code,9.5,80.7,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:37:10.832,idle,● dashboard.py - attention_pro - Visual Studio Code,9.5,80.7,02:00,gap:5s
+2026-03-14 02:37:24.240,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,9.0,80.5,02:00,btn:left
+2026-03-14 02:37:25.143,window_switch,● dashboard.py - attention_pro - Visual Studio Code,10.6,80.7,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:37:25.143,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.6,80.7,02:00,btn:left
+2026-03-14 02:37:26.850,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.2,80.8,02:00,burst:10
+2026-03-14 02:37:31.661,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.3,80.3,02:00,burst:10
+2026-03-14 02:37:34.666,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,5.9,80.3,02:00,burst:10
+2026-03-14 02:37:38.603,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.1,80.1,02:00,burst:10
+2026-03-14 02:37:40.455,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.6,80.2,02:00,burst:10
+2026-03-14 02:37:42.727,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.0,80.2,02:00,burst:10
+2026-03-14 02:37:45.029,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.0,80.2,02:00,burst:10
+2026-03-14 02:37:47.413,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.1,80.3,02:00,burst:10
+2026-03-14 02:37:49.437,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.8,80.2,02:00,burst:10
+2026-03-14 02:37:53.918,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,4.9,80.2,02:00,burst:10
+2026-03-14 02:37:57.338,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,5.6,80.2,02:00,burst:10
+2026-03-14 02:38:02.440,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.6,80.7,02:00,gap:5s
+2026-03-14 02:39:06.656,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.1,82.5,02:00,btn:left
+2026-03-14 02:39:13.021,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.9,82.4,02:00,burst:10
+2026-03-14 02:39:16.600,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,5.3,82.3,02:00,burst:10
+2026-03-14 02:39:19.028,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.4,82.3,02:00,burst:10
+2026-03-14 02:39:25.785,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.3,80.9,02:00,gap:5s
+2026-03-14 02:39:42.117,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.8,82.6,02:00,btn:left
+2026-03-14 02:39:44.181,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.5,82.7,02:00,btn:left
+2026-03-14 02:39:46.444,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.8,82.7,02:00,burst:10
+2026-03-14 02:39:50.197,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.1,82.9,02:00,burst:10
+2026-03-14 02:39:52.701,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.8,83.0,02:00,btn:left
+2026-03-14 02:39:57.837,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.8,81.6,02:00,gap:5s
+2026-03-14 02:40:35.825,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.8,81.4,02:00,btn:left
+2026-03-14 02:40:41.142,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.8,81.4,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:40:41.142,idle,● dashboard.py - attention_pro - Visual Studio Code,8.8,81.4,02:00,gap:5s
+2026-03-14 02:41:22.302,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,6.8,81.1,02:00,btn:left
+2026-03-14 02:41:25.417,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,6.4,81.1,02:00,btn:left
+2026-03-14 02:41:34.639,idle,● dashboard.py - attention_pro - Visual Studio Code,6.9,81.6,02:00,gap:5s
+2026-03-14 02:41:55.591,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,7.3,81.2,02:00,btn:left
+2026-03-14 02:42:00.701,idle,● dashboard.py - attention_pro - Visual Studio Code,7.2,81.2,02:00,gap:5s
+2026-03-14 02:42:06.879,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,9.4,81.7,02:00,btn:left
+2026-03-14 02:42:14.959,idle,● dashboard.py - attention_pro - Visual Studio Code,9.4,81.7,02:00,gap:5s
+2026-03-14 02:42:16.624,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,9.2,81.7,02:00,btn:left
+2026-03-14 02:42:22.062,idle,● dashboard.py - attention_pro - Visual Studio Code,4.4,81.7,02:00,gap:5s
+2026-03-14 02:42:23.528,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,4.9,81.7,02:00,btn:left
+2026-03-14 02:42:28.670,window_switch,● dashboard.py - attention_pro - Visual Studio Code,10.3,82.0,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:42:28.670,idle,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.3,82.0,02:00,gap:5s
+2026-03-14 02:42:29.735,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.0,81.9,02:00,btn:left
+2026-03-14 02:42:30.874,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,13.8,82.0,02:00,→ GitHub Push Commands
+2026-03-14 02:42:30.874,mouse_click,GitHub Push Commands,13.8,82.0,02:00,btn:left
+2026-03-14 02:42:36.293,window_switch,GitHub Push Commands,9.1,81.7,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:42:36.293,idle,● dashboard.py - attention_pro - Visual Studio Code,9.1,81.7,02:00,gap:5s
+2026-03-14 02:43:04.945,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,7.4,81.3,02:00,btn:left
+2026-03-14 02:43:10.429,window_switch,● dashboard.py - attention_pro - Visual Studio Code,7.6,81.3,02:00,→ analysis.py - attention_pro - Visual Studio Code
+2026-03-14 02:43:10.429,idle,analysis.py - attention_pro - Visual Studio Code,7.6,81.3,02:00,gap:5s
+2026-03-14 02:43:15.061,mouse_click,analysis.py - attention_pro - Visual Studio Code,10.4,80.0,02:00,btn:left
+2026-03-14 02:43:18.158,window_switch,analysis.py - attention_pro - Visual Studio Code,13.0,80.4,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:43:18.158,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.0,80.4,02:00,btn:left
+2026-03-14 02:43:23.161,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.0,80.7,02:00,gap:5s
+2026-03-14 02:43:24.031,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.7,80.7,02:00,btn:left
+2026-03-14 02:43:27.711,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.4,80.6,02:00,→ analysis.py - attention_pro - Visual Studio Code
+2026-03-14 02:43:27.711,mouse_click,analysis.py - attention_pro - Visual Studio Code,11.4,80.6,02:00,btn:left
+2026-03-14 02:43:32.822,window_switch,analysis.py - attention_pro - Visual Studio Code,9.5,80.5,02:00,→ ● monitor.py - attention_pro - Visual Studio Code
+2026-03-14 02:43:32.822,idle,● monitor.py - attention_pro - Visual Studio Code,9.5,80.5,02:00,gap:5s
+2026-03-14 02:43:36.738,mouse_click,● monitor.py - attention_pro - Visual Studio Code,8.0,80.5,02:00,btn:left
+2026-03-14 02:43:37.815,window_switch,● monitor.py - attention_pro - Visual Studio Code,16.1,80.4,02:00,→ report_generator.py - attention_pro - Visual Studio Code
+2026-03-14 02:43:37.815,mouse_click,report_generator.py - attention_pro - Visual Studio Code,16.1,80.4,02:00,btn:left
+2026-03-14 02:43:39.591,window_switch,report_generator.py - attention_pro - Visual Studio Code,18.5,80.5,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:43:39.591,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,18.5,80.5,02:00,btn:left
+2026-03-14 02:43:43.396,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,6.1,80.5,02:00,btn:left
+2026-03-14 02:43:45.183,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,6.6,80.5,02:00,btn:left
+2026-03-14 02:43:47.395,keyboard,● dashboard.py - attention_pro - Visual Studio Code,8.2,80.5,02:00,burst:10
+2026-03-14 02:43:53.740,window_switch,● dashboard.py - attention_pro - Visual Studio Code,9.5,81.0,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:43:53.740,idle,dashboard.py - attention_pro - Visual Studio Code,9.5,81.0,02:00,gap:5s
+2026-03-14 02:43:57.286,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.3,81.0,02:00,btn:left
+2026-03-14 02:44:00.197,window_switch,dashboard.py - attention_pro - Visual Studio Code,10.2,81.4,02:00,→ NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:44:00.197,mouse_click,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,10.2,81.4,02:00,btn:left
+2026-03-14 02:44:01.045,window_switch,NeuroFocus · Attention Intelligence - Personal - Microsoft​ Edge,16.6,81.5,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:44:01.045,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,16.6,81.5,02:00,btn:left
+2026-03-14 02:44:03.544,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.3,81.6,02:00,btn:left
+2026-03-14 02:44:08.066,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.9,81.3,02:00,btn:left
+2026-03-14 02:44:13.196,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.5,81.3,02:00,gap:5s
+2026-03-14 02:44:16.816,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.8,80.8,02:00,btn:left
+2026-03-14 02:44:18.686,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.1,80.8,02:00,btn:left
+2026-03-14 02:44:20.281,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.7,80.9,02:00,btn:left
+2026-03-14 02:44:23.170,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.6,81.1,02:00,btn:left
+2026-03-14 02:44:25.457,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.3,81.1,02:00,btn:left
+2026-03-14 02:44:27.606,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,16.5,81.1,02:00,btn:left
+2026-03-14 02:44:28.730,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,19.9,81.2,02:00,btn:left
+2026-03-14 02:44:32.108,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.9,81.3,02:00,btn:left
+2026-03-14 02:44:37.109,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.1,81.4,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:44:37.109,idle,dashboard.py - attention_pro - Visual Studio Code,11.1,81.4,02:00,gap:5s
+2026-03-14 02:44:41.908,mouse_click,dashboard.py - attention_pro - Visual Studio Code,10.2,81.1,02:00,btn:left
+2026-03-14 02:44:47.512,window_switch,dashboard.py - attention_pro - Visual Studio Code,11.6,81.8,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:44:47.512,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,11.6,81.8,02:00,btn:left
+2026-03-14 02:44:51.192,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,8.5,81.8,02:00,btn:left
+2026-03-14 02:44:56.487,idle,● dashboard.py - attention_pro - Visual Studio Code,11.5,81.7,02:00,gap:5s
+2026-03-14 02:45:00.339,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,13.5,81.7,02:00,btn:left
+2026-03-14 02:45:01.856,window_switch,● dashboard.py - attention_pro - Visual Studio Code,11.3,81.7,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:45:01.856,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.3,81.7,02:00,btn:left
+2026-03-14 02:45:02.996,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.7,81.7,02:00,btn:left
+2026-03-14 02:45:04.165,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.5,81.8,02:00,btn:left
+2026-03-14 02:45:05.915,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.6,81.8,02:00,btn:left
+2026-03-14 02:45:08.427,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.4,81.9,02:00,btn:left
+2026-03-14 02:45:09.786,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,14.1,81.8,02:00,btn:left
+2026-03-14 02:45:12.720,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.3,82.1,02:00,btn:left
+2026-03-14 02:45:17.928,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.7,81.6,02:00,gap:5s
+2026-03-14 02:45:22.038,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.0,81.4,02:00,btn:left
+2026-03-14 02:45:27.111,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.7,81.4,02:00,gap:5s
+2026-03-14 02:45:28.943,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.7,81.3,02:00,btn:left
+2026-03-14 02:45:29.918,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.2,81.3,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:45:29.918,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.2,81.3,02:00,btn:left
+2026-03-14 02:45:31.629,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.3,81.4,02:00,burst:10
+2026-03-14 02:45:34.698,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.9,81.4,02:00,burst:10
+2026-03-14 02:45:37.995,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.2,81.2,02:00,burst:10
+2026-03-14 02:45:39.969,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.7,81.2,02:00,burst:10
+2026-03-14 02:45:42.125,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.3,81.0,02:00,burst:10
+2026-03-14 02:45:44.348,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.2,81.1,02:00,burst:10
+2026-03-14 02:45:46.759,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.9,81.0,02:00,burst:10
+2026-03-14 02:45:50.682,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.2,80.3,02:00,burst:10
+2026-03-14 02:45:52.878,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.6,80.4,02:00,btn:left
+2026-03-14 02:45:56.936,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.6,80.6,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:45:56.936,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.6,80.6,02:00,btn:left
+2026-03-14 02:45:58.032,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,15.3,80.6,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:45:58.032,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,15.3,80.6,02:00,btn:left
+2026-03-14 02:46:03.139,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,8.1,80.4,02:00,btn:left
+2026-03-14 02:46:04.725,window_switch,● dashboard.py - attention_pro - Visual Studio Code,9.2,80.5,02:00,→ GitHub Push Commands
+2026-03-14 02:46:04.725,mouse_click,GitHub Push Commands,9.2,80.5,02:00,btn:left
+2026-03-14 02:46:06.313,window_switch,GitHub Push Commands,11.2,80.7,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:46:06.313,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.2,80.7,02:00,btn:left
+2026-03-14 02:46:08.669,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.0,80.7,02:00,btn:left
+2026-03-14 02:46:13.952,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.3,80.6,02:00,gap:5s
+2026-03-14 02:46:25.813,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.7,80.7,02:00,btn:left
+2026-03-14 02:46:26.902,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,18.8,80.7,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:46:26.902,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,18.8,80.7,02:00,btn:left
+2026-03-14 02:46:28.225,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,7.8,80.7,02:00,btn:left
+2026-03-14 02:46:30.398,keyboard,● dashboard.py - attention_pro - Visual Studio Code,10.7,81.3,02:00,burst:10
+2026-03-14 02:46:33.053,window_switch,● dashboard.py - attention_pro - Visual Studio Code,16.1,80.8,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:46:33.053,mouse_click,dashboard.py - attention_pro - Visual Studio Code,16.1,80.8,02:00,btn:left
+2026-03-14 02:46:35.161,window_switch,dashboard.py - attention_pro - Visual Studio Code,9.6,80.9,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:46:35.161,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.6,80.9,02:00,btn:left
+2026-03-14 02:46:37.146,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.2,81.0,02:00,btn:left
+2026-03-14 02:46:42.458,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.4,81.3,02:00,gap:5s
+2026-03-14 02:46:44.538,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.4,81.4,02:00,btn:left
+2026-03-14 02:46:46.771,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.8,81.4,02:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 02:46:46.771,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,13.8,81.4,02:00,btn:left
+2026-03-14 02:46:51.057,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.2,81.7,02:00,btn:left
+2026-03-14 02:46:56.200,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,11.0,81.6,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:46:56.200,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.0,81.6,02:00,gap:5s
+2026-03-14 02:46:57.492,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.4,81.7,02:00,btn:left
+2026-03-14 02:47:01.915,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.9,81.4,02:00,btn:left
+2026-03-14 02:47:06.926,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.8,81.3,02:00,gap:5s
+2026-03-14 02:47:27.687,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.3,80.8,02:00,btn:left
+2026-03-14 02:47:32.958,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.2,81.0,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:47:32.958,idle,dashboard.py - attention_pro - Visual Studio Code,7.2,81.0,02:00,gap:5s
+2026-03-14 02:47:39.012,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.6,80.7,02:00,btn:left
+2026-03-14 02:47:41.326,window_switch,dashboard.py - attention_pro - Visual Studio Code,11.0,80.9,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:47:41.326,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.0,80.9,02:00,btn:left
+2026-03-14 02:47:46.755,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.6,81.3,02:00,gap:5s
+2026-03-14 02:48:01.634,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.9,80.9,02:00,btn:left
+2026-03-14 02:48:04.224,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.4,81.0,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:48:04.224,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.4,81.0,02:00,btn:left
+2026-03-14 02:48:07.819,mouse_click,dashboard.py - attention_pro - Visual Studio Code,6.5,80.9,02:00,btn:left
+2026-03-14 02:48:12.638,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.8,80.8,02:00,btn:left
+2026-03-14 02:48:14.852,mouse_click,dashboard.py - attention_pro - Visual Studio Code,6.7,80.8,02:00,btn:left
+2026-03-14 02:48:23.038,window_switch,dashboard.py - attention_pro - Visual Studio Code,9.7,81.5,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:48:23.038,idle,● dashboard.py - attention_pro - Visual Studio Code,9.7,81.5,02:00,gap:5s
+2026-03-14 02:49:14.786,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,8.5,81.1,02:00,btn:left
+2026-03-14 02:49:19.912,idle,● dashboard.py - attention_pro - Visual Studio Code,7.4,81.2,02:00,gap:5s
+2026-03-14 02:49:20.389,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,4.4,81.2,02:00,btn:left
+2026-03-14 02:49:29.568,idle,● dashboard.py - attention_pro - Visual Studio Code,12.5,81.7,02:00,gap:5s
+2026-03-14 02:49:32.489,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,11.2,81.7,02:00,btn:left
+2026-03-14 02:49:34.827,keyboard,● dashboard.py - attention_pro - Visual Studio Code,8.9,81.9,02:00,burst:10
+2026-03-14 02:49:41.790,idle,● dashboard.py - attention_pro - Visual Studio Code,10.8,81.1,02:00,gap:5s
+2026-03-14 02:49:44.890,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,11.2,81.0,02:00,btn:left
+2026-03-14 02:49:46.961,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,10.4,81.1,02:00,btn:left
+2026-03-14 02:49:47.629,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,6.9,81.1,02:00,btn:left
+2026-03-14 02:49:56.036,idle,● dashboard.py - attention_pro - Visual Studio Code,11.4,81.2,02:00,gap:5s
+2026-03-14 02:49:56.838,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,12.8,81.2,02:00,btn:left
+2026-03-14 02:50:04.644,idle,● dashboard.py - attention_pro - Visual Studio Code,8.9,81.1,02:00,gap:5s
+2026-03-14 02:50:10.553,keyboard,● dashboard.py - attention_pro - Visual Studio Code,9.8,81.0,02:00,burst:10
+2026-03-14 02:50:10.862,keyboard,● dashboard.py - attention_pro - Visual Studio Code,11.3,81.0,02:00,burst:10
+2026-03-14 02:50:13.743,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,7.1,81.0,02:00,btn:left
+2026-03-14 02:50:15.487,window_switch,● dashboard.py - attention_pro - Visual Studio Code,14.5,81.0,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:50:15.487,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,14.5,81.0,02:00,btn:left
+2026-03-14 02:50:20.960,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.1,81.2,02:00,gap:5s
+2026-03-14 02:50:27.424,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.3,80.6,02:00,btn:left
+2026-03-14 02:50:30.278,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.5,80.7,02:00,→ GitHub Push Commands
+2026-03-14 02:50:30.278,mouse_click,GitHub Push Commands,10.5,80.7,02:00,btn:left
+2026-03-14 02:50:31.051,keyboard,GitHub Push Commands,8.3,80.7,02:00,burst:10
+2026-03-14 02:50:33.467,mouse_click,GitHub Push Commands,8.5,80.8,02:00,btn:left
+2026-03-14 02:50:36.448,window_switch,GitHub Push Commands,11.6,80.9,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:50:36.448,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.6,80.9,02:00,btn:left
+2026-03-14 02:50:38.919,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.7,80.9,02:00,btn:left
+2026-03-14 02:50:40.178,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.5,81.1,02:00,btn:left
+2026-03-14 02:50:41.326,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,15.3,81.0,02:00,btn:left
+2026-03-14 02:50:42.270,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.8,81.1,02:00,btn:left
+2026-03-14 02:50:47.503,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.2,81.1,02:00,gap:5s
+2026-03-14 02:50:48.848,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.6,81.1,02:00,btn:left
+2026-03-14 02:50:51.824,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,15.5,80.7,02:00,→ GitHub Push Commands
+2026-03-14 02:50:51.824,mouse_click,GitHub Push Commands,15.5,80.7,02:00,btn:left
+2026-03-14 02:50:57.223,window_switch,GitHub Push Commands,10.2,80.4,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:50:57.223,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.2,80.4,02:00,gap:5s
+2026-03-14 02:51:07.834,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.2,81.0,02:00,→ Unknown
+2026-03-14 02:51:07.834,mouse_click,Unknown,8.2,81.0,02:00,btn:left
+2026-03-14 02:51:13.041,window_switch,Unknown,8.3,81.0,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:51:13.041,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.3,81.0,02:00,gap:5s
+2026-03-14 02:51:17.097,navigation,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.5,80.6,02:00,arrow:up:count:5
+2026-03-14 02:51:23.769,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.2,82.4,02:00,gap:5s
+2026-03-14 02:51:26.557,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.0,82.2,02:00,btn:left
+2026-03-14 02:51:31.932,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,6.6,82.2,02:00,gap:5s
+2026-03-14 02:51:38.674,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,6.9,82.2,02:00,btn:left
+2026-03-14 02:51:40.510,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.4,82.2,02:00,btn:left
+2026-03-14 02:51:42.901,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,14.4,82.5,02:00,btn:left
+2026-03-14 02:51:48.279,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.9,82.5,02:00,gap:5s
+2026-03-14 02:51:56.474,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.9,82.4,02:00,btn:left
+2026-03-14 02:51:57.638,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,19.1,82.8,02:00,→ WhatsApp
+2026-03-14 02:51:57.638,mouse_click,WhatsApp,19.1,82.8,02:00,btn:left
+2026-03-14 02:51:59.102,window_switch,WhatsApp,7.7,82.9,02:00,→ GitHub Push Commands
+2026-03-14 02:51:59.102,mouse_click,GitHub Push Commands,7.7,82.9,02:00,btn:left
+2026-03-14 02:52:00.161,window_switch,GitHub Push Commands,10.3,83.1,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:52:00.161,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,10.3,83.1,02:00,btn:left
+2026-03-14 02:52:00.828,window_switch,● dashboard.py - attention_pro - Visual Studio Code,9.0,83.6,02:00,→ Search
+2026-03-14 02:52:00.828,keyboard,Search,9.0,83.6,02:00,burst:10
+2026-03-14 02:52:03.811,mouse_click,Search,29.0,84.6,02:00,btn:left
+2026-03-14 02:52:07.804,window_switch,Search,25.4,85.2,02:00,→ JPMorganChase Software Engineering.txt - Notepad
+2026-03-14 02:52:07.804,mouse_click,JPMorganChase Software Engineering.txt - Notepad,25.4,85.2,02:00,btn:left
+2026-03-14 02:52:09.675,window_switch,JPMorganChase Software Engineering.txt - Notepad,33.6,85.4,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:52:09.675,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,33.6,85.4,02:00,btn:left
+2026-03-14 02:52:14.725,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,17.8,85.4,02:00,gap:5s
+2026-03-14 02:52:47.654,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.2,84.7,02:00,btn:left
+2026-03-14 02:52:50.913,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,15.6,84.9,02:00,btn:left
+2026-03-14 02:52:51.780,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.4,85.1,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:52:51.780,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,12.4,85.1,02:00,btn:left
+2026-03-14 02:52:54.749,window_switch,● dashboard.py - attention_pro - Visual Studio Code,8.8,85.2,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:52:54.749,mouse_click,dashboard.py - attention_pro - Visual Studio Code,8.8,85.2,02:00,btn:left
+2026-03-14 02:52:58.658,mouse_click,dashboard.py - attention_pro - Visual Studio Code,12.5,85.0,02:00,btn:left
+2026-03-14 02:53:00.556,window_switch,dashboard.py - attention_pro - Visual Studio Code,14.3,85.1,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:53:00.556,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,14.3,85.1,02:00,btn:left
+2026-03-14 02:53:03.980,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.2,85.1,02:00,btn:left
+2026-03-14 02:53:09.313,keyboard,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.4,85.4,02:00,burst:10
+2026-03-14 02:53:10.662,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.5,85.3,02:00,btn:left
+2026-03-14 02:53:15.957,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.7,85.3,02:00,btn:left
+2026-03-14 02:53:17.581,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.2,85.5,02:00,btn:left
+2026-03-14 02:53:18.846,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.7,85.5,02:00,btn:left
+2026-03-14 02:53:24.154,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.1,85.5,02:00,gap:5s
+2026-03-14 02:53:25.338,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.4,85.4,02:00,btn:left
+2026-03-14 02:53:30.795,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,14.5,84.6,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:53:30.795,idle,dashboard.py - attention_pro - Visual Studio Code,14.5,84.6,02:00,gap:5s
+2026-03-14 02:53:35.344,keyboard,dashboard.py - attention_pro - Visual Studio Code,9.9,84.4,02:00,burst:10
+2026-03-14 02:53:40.087,window_switch,dashboard.py - attention_pro - Visual Studio Code,14.4,84.5,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:53:40.087,keyboard,● dashboard.py - attention_pro - Visual Studio Code,14.4,84.5,02:00,burst:10
+2026-03-14 02:53:42.114,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,12.3,84.6,02:00,btn:left
+2026-03-14 02:53:45.531,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,6.6,84.6,02:00,btn:left
+2026-03-14 02:53:50.660,idle,● dashboard.py - attention_pro - Visual Studio Code,8.6,84.3,02:00,gap:5s
+2026-03-14 02:53:51.911,navigation,● dashboard.py - attention_pro - Visual Studio Code,6.2,84.3,02:00,arrow:right:count:5
+2026-03-14 02:53:54.641,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,5.0,84.3,02:00,btn:left
+2026-03-14 02:54:01.855,idle,● dashboard.py - attention_pro - Visual Studio Code,9.2,84.7,02:00,gap:5s
+2026-03-14 02:54:02.164,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,11.1,84.7,02:00,btn:left
+2026-03-14 02:54:05.324,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,9.8,84.8,02:00,btn:left
+2026-03-14 02:54:07.033,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,9.5,84.8,02:00,btn:left
+2026-03-14 02:54:11.965,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,12.7,84.7,02:00,btn:left
+2026-03-14 02:54:14.662,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,10.0,84.7,02:00,btn:left
+2026-03-14 02:54:16.409,keyboard,● dashboard.py - attention_pro - Visual Studio Code,10.6,84.8,02:00,burst:10
+2026-03-14 02:54:16.943,keyboard,● dashboard.py - attention_pro - Visual Studio Code,34.3,84.9,02:00,burst:10
+2026-03-14 02:54:18.500,keyboard,● dashboard.py - attention_pro - Visual Studio Code,32.4,85.3,02:00,burst:10
+2026-03-14 02:54:22.620,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,16.8,85.5,02:00,btn:left
+2026-03-14 02:54:31.428,idle,● dashboard.py - attention_pro - Visual Studio Code,11.1,85.6,02:00,gap:5s
+2026-03-14 02:54:48.477,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,6.2,85.4,02:00,btn:left
+2026-03-14 02:54:51.997,keyboard,● dashboard.py - attention_pro - Visual Studio Code,7.1,85.1,02:00,burst:10
+2026-03-14 02:54:55.267,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,14.2,85.7,02:00,btn:left
+2026-03-14 02:55:00.461,idle,● dashboard.py - attention_pro - Visual Studio Code,8.4,85.7,02:00,gap:5s
+2026-03-14 02:55:01.217,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,8.4,85.7,02:00,btn:left
+2026-03-14 02:55:02.620,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,8.7,85.7,02:00,btn:left
+2026-03-14 02:55:06.625,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,13.4,85.7,02:00,btn:left
+2026-03-14 02:55:08.683,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,8.3,85.6,02:00,btn:left
+2026-03-14 02:55:11.267,keyboard,● dashboard.py - attention_pro - Visual Studio Code,11.7,85.5,02:00,burst:10
+2026-03-14 02:55:17.248,idle,● dashboard.py - attention_pro - Visual Studio Code,11.3,85.6,02:00,gap:5s
+2026-03-14 02:55:19.522,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,10.5,85.7,02:00,btn:left
+2026-03-14 02:55:28.319,keyboard,● dashboard.py - attention_pro - Visual Studio Code,10.5,85.5,02:00,burst:10
+2026-03-14 02:55:34.040,idle,● dashboard.py - attention_pro - Visual Studio Code,10.4,85.6,02:00,gap:5s
+2026-03-14 02:55:39.016,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,10.4,85.7,02:00,btn:left
+2026-03-14 02:55:41.081,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,7.6,85.7,02:00,btn:left
+2026-03-14 02:55:43.795,keyboard,● dashboard.py - attention_pro - Visual Studio Code,9.2,85.6,02:00,burst:10
+2026-03-14 02:55:49.308,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,10.5,85.5,02:00,btn:left
+2026-03-14 02:55:55.116,keyboard,● dashboard.py - attention_pro - Visual Studio Code,14.0,84.2,02:00,burst:10
+2026-03-14 02:56:05.155,idle,● dashboard.py - attention_pro - Visual Studio Code,10.3,84.4,02:00,gap:5s
+2026-03-14 02:56:53.251,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,6.0,83.0,02:00,btn:left
+2026-03-14 02:56:57.834,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,12.4,83.8,02:00,btn:left
+2026-03-14 02:57:06.191,idle,● dashboard.py - attention_pro - Visual Studio Code,5.9,83.9,02:00,gap:5s
+2026-03-14 02:57:18.619,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,9.9,83.9,02:00,btn:left
+2026-03-14 02:57:22.690,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,11.3,84.0,02:00,btn:left
+2026-03-14 02:57:24.468,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,12.5,84.1,02:00,btn:left
+2026-03-14 02:57:24.896,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,17.2,84.1,02:00,btn:left
+2026-03-14 02:57:26.106,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,16.1,84.2,02:00,btn:left
+2026-03-14 02:57:27.572,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,9.6,84.0,02:00,btn:left
+2026-03-14 02:57:29.655,keyboard,● dashboard.py - attention_pro - Visual Studio Code,7.3,84.1,02:00,burst:10
+2026-03-14 02:57:35.291,idle,● dashboard.py - attention_pro - Visual Studio Code,10.9,84.1,02:00,gap:5s
+2026-03-14 02:57:40.855,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,10.7,84.1,02:00,btn:left
+2026-03-14 02:57:47.183,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,10.6,84.1,02:00,btn:left
+2026-03-14 02:57:48.277,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,7.9,84.2,02:00,btn:left
+2026-03-14 02:57:48.573,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,6.1,84.2,02:00,btn:left
+2026-03-14 02:57:49.817,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,8.9,84.2,02:00,btn:left
+2026-03-14 02:57:52.607,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,8.0,84.2,02:00,btn:left
+2026-03-14 02:58:00.185,window_switch,● dashboard.py - attention_pro - Visual Studio Code,12.0,84.5,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:58:00.185,mouse_click,dashboard.py - attention_pro - Visual Studio Code,12.0,84.5,02:00,btn:left
+2026-03-14 02:58:02.056,window_switch,dashboard.py - attention_pro - Visual Studio Code,12.9,84.6,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:58:02.056,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.9,84.6,02:00,btn:left
+2026-03-14 02:58:07.312,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.6,85.2,02:00,gap:5s
+2026-03-14 02:58:09.392,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.5,85.1,02:00,btn:left
+2026-03-14 02:58:12.431,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.5,85.2,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:58:12.431,mouse_click,dashboard.py - attention_pro - Visual Studio Code,12.5,85.2,02:00,btn:left
+2026-03-14 02:58:14.176,window_switch,dashboard.py - attention_pro - Visual Studio Code,12.9,85.2,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:58:14.176,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.9,85.2,02:00,btn:left
+2026-03-14 02:58:16.887,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.9,85.6,02:00,btn:left
+2026-03-14 02:58:18.489,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,14.1,85.2,02:00,btn:left
+2026-03-14 02:58:19.919,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.1,85.2,02:00,btn:left
+2026-03-14 02:58:23.906,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.1,85.4,02:00,btn:left
+2026-03-14 02:58:26.127,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.6,85.3,02:00,btn:left
+2026-03-14 02:58:28.611,keyboard,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.9,85.5,02:00,burst:10
+2026-03-14 02:58:31.115,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.4,85.4,02:00,btn:left
+2026-03-14 02:58:35.942,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,6.0,84.6,02:00,btn:left
+2026-03-14 02:58:39.502,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.9,84.7,02:00,btn:left
+2026-03-14 02:58:40.946,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.0,84.9,02:00,btn:left
+2026-03-14 02:58:42.001,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.2,84.9,02:00,btn:left
+2026-03-14 02:58:47.208,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.6,84.9,02:00,gap:5s
+2026-03-14 02:58:47.781,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.1,84.9,02:00,btn:left
+2026-03-14 02:58:49.540,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.2,85.0,02:00,→ GitHub Push Commands
+2026-03-14 02:58:49.540,scroll,GitHub Push Commands,11.2,85.0,02:00,ticks:5
+2026-03-14 02:58:49.575,scroll,GitHub Push Commands,4.2,85.0,02:00,ticks:5
+2026-03-14 02:58:49.611,scroll,GitHub Push Commands,8.3,85.0,02:00,ticks:5
+2026-03-14 02:58:49.646,scroll,GitHub Push Commands,17.9,85.0,02:00,ticks:5
+2026-03-14 02:58:50.002,scroll,GitHub Push Commands,7.2,85.1,02:00,ticks:5
+2026-03-14 02:58:50.038,scroll,GitHub Push Commands,35.1,85.1,02:00,ticks:5
+2026-03-14 02:58:50.074,scroll,GitHub Push Commands,21.1,85.1,02:00,ticks:5
+2026-03-14 02:58:51.903,mouse_click,GitHub Push Commands,13.0,85.0,02:00,btn:left
+2026-03-14 02:58:54.921,window_switch,GitHub Push Commands,8.3,84.9,02:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 02:58:54.921,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.3,84.9,02:00,btn:left
+2026-03-14 02:58:59.945,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.5,84.9,02:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:58:59.945,idle,dashboard.py - attention_pro - Visual Studio Code,10.5,84.9,02:00,gap:5s
+2026-03-14 02:59:44.316,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.5,83.8,02:00,btn:left
+2026-03-14 02:59:45.931,mouse_click,dashboard.py - attention_pro - Visual Studio Code,8.5,83.9,02:00,btn:left
+2026-03-14 02:59:52.952,window_switch,dashboard.py - attention_pro - Visual Studio Code,9.3,84.1,02:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 02:59:52.952,idle,● dashboard.py - attention_pro - Visual Studio Code,9.3,84.1,02:00,gap:5s
+2026-03-14 02:59:54.663,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,9.3,84.2,02:00,btn:left
+2026-03-14 02:59:59.275,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,9.1,84.2,02:00,btn:left
+2026-03-14 03:00:00.848,window_switch,● dashboard.py - attention_pro - Visual Studio Code,17.0,84.8,03:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 03:00:00.848,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,17.0,84.8,03:00,btn:left
+2026-03-14 03:00:04.263,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.3,84.8,03:00,burst:10
+2026-03-14 03:00:05.818,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.0,84.6,03:00,burst:10
+2026-03-14 03:00:10.612,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.6,84.5,03:00,btn:left
+2026-03-14 03:00:12.401,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.4,84.2,03:00,burst:10
+2026-03-14 03:00:15.102,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.2,84.1,03:00,burst:10
+2026-03-14 03:00:18.022,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,5.2,84.0,03:00,burst:10
+2026-03-14 03:00:20.446,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,6.1,84.0,03:00,burst:10
+2026-03-14 03:00:25.651,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.9,85.1,03:00,gap:5s
+2026-03-14 03:00:41.879,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.4,85.3,03:00,btn:left
+2026-03-14 03:00:43.270,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.5,85.4,03:00,btn:left
+2026-03-14 03:00:44.070,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.5,85.5,03:00,→ GitHub Push Commands
+2026-03-14 03:00:44.070,mouse_click,GitHub Push Commands,14.5,85.5,03:00,btn:left
+2026-03-14 03:00:54.710,window_switch,GitHub Push Commands,16.0,85.0,03:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:00:54.710,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,16.0,85.0,03:00,btn:left
+2026-03-14 03:00:56.852,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,8.2,85.0,03:00,btn:left
+2026-03-14 03:00:58.738,window_switch,● dashboard.py - attention_pro - Visual Studio Code,13.6,85.1,03:00,→ GitHub Push Commands
+2026-03-14 03:00:58.738,mouse_click,GitHub Push Commands,13.6,85.1,03:00,btn:left
+2026-03-14 03:01:01.179,window_switch,GitHub Push Commands,13.1,84.9,03:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:01:01.179,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,13.1,84.9,03:00,btn:left
+2026-03-14 03:01:03.400,window_switch,● dashboard.py - attention_pro - Visual Studio Code,12.7,85.1,03:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 03:01:03.400,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.7,85.1,03:00,btn:left
+2026-03-14 03:01:04.627,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.3,85.1,03:00,btn:left
+2026-03-14 03:01:07.450,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,12.6,85.1,03:00,→ ● dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:01:07.450,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,12.6,85.1,03:00,btn:left
+2026-03-14 03:01:08.454,mouse_click,● dashboard.py - attention_pro - Visual Studio Code,8.3,85.1,03:00,btn:left
+2026-03-14 03:01:15.350,keyboard,● dashboard.py - attention_pro - Visual Studio Code,12.3,85.3,03:00,burst:10
+2026-03-14 03:01:17.087,window_switch,● dashboard.py - attention_pro - Visual Studio Code,11.2,85.3,03:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:01:17.087,mouse_click,dashboard.py - attention_pro - Visual Studio Code,11.2,85.3,03:00,btn:left
+2026-03-14 03:01:18.989,window_switch,dashboard.py - attention_pro - Visual Studio Code,11.4,85.5,03:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 03:01:18.989,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.4,85.5,03:00,btn:left
+2026-03-14 03:01:24.444,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.3,85.8,03:00,gap:5s
+2026-03-14 03:01:25.514,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.4,85.8,03:00,btn:left
+2026-03-14 03:01:27.257,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.5,86.1,03:00,btn:left
+2026-03-14 03:01:28.909,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.2,86.1,03:00,btn:left
+2026-03-14 03:01:30.425,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.4,86.1,03:00,btn:left
+2026-03-14 03:01:35.697,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.0,86.2,03:00,gap:5s
+2026-03-14 03:01:38.211,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.6,86.2,03:00,btn:left
+2026-03-14 03:01:39.015,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,14.3,86.3,03:00,btn:left
+2026-03-14 03:01:44.431,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.3,85.8,03:00,gap:5s
+2026-03-14 03:01:45.885,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.2,85.6,03:00,btn:left
+2026-03-14 03:01:51.101,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.3,85.3,03:00,gap:5s
+2026-03-14 03:01:54.149,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.9,85.2,03:00,btn:left
+2026-03-14 03:01:55.814,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,15.5,85.3,03:00,→ JPMorganChase Software Engineering.txt - Notepad
+2026-03-14 03:01:55.814,mouse_click,JPMorganChase Software Engineering.txt - Notepad,15.5,85.3,03:00,btn:left
+2026-03-14 03:01:58.563,window_switch,JPMorganChase Software Engineering.txt - Notepad,10.9,84.4,03:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 03:01:58.563,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.9,84.4,03:00,btn:left
+2026-03-14 03:02:03.860,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.0,85.0,03:00,gap:5s
+2026-03-14 03:02:08.277,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.8,82.2,03:00,btn:left
+2026-03-14 03:02:11.544,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.8,82.2,03:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:02:11.544,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.8,82.2,03:00,btn:left
+2026-03-14 03:02:12.405,window_switch,dashboard.py - attention_pro - Visual Studio Code,15.7,82.3,03:00,→ ● monitor.py - attention_pro - Visual Studio Code
+2026-03-14 03:02:12.405,mouse_click,● monitor.py - attention_pro - Visual Studio Code,15.7,82.3,03:00,btn:left
+2026-03-14 03:02:13.629,window_switch,● monitor.py - attention_pro - Visual Studio Code,21.1,82.3,03:00,→ report_generator.py - attention_pro - Visual Studio Code
+2026-03-14 03:02:13.629,mouse_click,report_generator.py - attention_pro - Visual Studio Code,21.1,82.3,03:00,btn:left
+2026-03-14 03:02:14.469,window_switch,report_generator.py - attention_pro - Visual Studio Code,17.2,82.5,03:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:02:14.469,mouse_click,dashboard.py - attention_pro - Visual Studio Code,17.2,82.5,03:00,btn:left
+2026-03-14 03:02:19.659,window_switch,dashboard.py - attention_pro - Visual Studio Code,11.2,82.5,03:00,→ analysis.py - attention_pro - Visual Studio Code
+2026-03-14 03:02:19.659,idle,analysis.py - attention_pro - Visual Studio Code,11.2,82.5,03:00,gap:5s
+2026-03-14 03:02:19.773,mouse_click,analysis.py - attention_pro - Visual Studio Code,8.5,82.5,03:00,btn:left
+2026-03-14 03:02:20.654,window_switch,analysis.py - attention_pro - Visual Studio Code,13.6,82.6,03:00,→ GitHub Push Commands
+2026-03-14 03:02:20.654,mouse_click,GitHub Push Commands,13.6,82.6,03:00,btn:left
+2026-03-14 03:02:21.657,window_switch,GitHub Push Commands,14.7,82.8,03:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 03:02:21.657,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.7,82.8,03:00,btn:left
+2026-03-14 03:02:24.774,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,10.6,82.9,03:00,burst:10
+2026-03-14 03:02:27.023,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,9.3,82.8,03:00,burst:10
+2026-03-14 03:02:30.007,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,5.7,82.5,03:00,burst:10
+2026-03-14 03:02:32.536,keyboard,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,14.2,82.3,03:00,burst:10
+2026-03-14 03:02:40.084,idle,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,8.7,82.2,03:00,gap:5s
+2026-03-14 03:02:43.536,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.9,82.2,03:00,btn:left
+2026-03-14 03:02:44.831,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,7.5,82.3,03:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 03:02:44.831,keyboard,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.5,82.3,03:00,burst:10
+2026-03-14 03:02:50.276,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.3,81.8,03:00,gap:5s
+2026-03-14 03:02:52.040,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.9,81.7,03:00,btn:left
+2026-03-14 03:02:57.451,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.2,82.0,03:00,gap:5s
+2026-03-14 03:03:12.239,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.3,81.7,03:00,btn:left
+2026-03-14 03:03:14.915,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,24.3,82.8,03:00,→ Quick settings
+2026-03-14 03:03:14.915,mouse_click,Quick settings,24.3,82.8,03:00,btn:left
+2026-03-14 03:03:16.723,mouse_click,Quick settings,32.4,84.1,03:00,btn:left
+2026-03-14 03:03:19.349,window_switch,Quick settings,20.1,84.3,03:00,→ Search
+2026-03-14 03:03:19.349,mouse_click,Search,20.1,84.3,03:00,btn:left
+2026-03-14 03:03:21.825,window_switch,Search,20.1,85.4,03:00,→ JPMorganChase Software Engineering.txt - Notepad
+2026-03-14 03:03:21.825,mouse_click,JPMorganChase Software Engineering.txt - Notepad,20.1,85.4,03:00,btn:left
+2026-03-14 03:03:23.548,window_switch,JPMorganChase Software Engineering.txt - Notepad,14.1,85.4,03:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 03:03:23.548,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,14.1,85.4,03:00,btn:left
+2026-03-14 03:03:24.637,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,16.0,85.5,03:00,btn:left
+2026-03-14 03:03:30.078,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.9,85.9,03:00,gap:5s
+2026-03-14 03:03:41.619,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.9,85.7,03:00,btn:left
+2026-03-14 03:03:46.922,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.4,85.6,03:00,gap:5s
+2026-03-14 03:03:54.821,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.4,85.2,03:00,btn:left
+2026-03-14 03:03:56.552,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,19.3,85.7,03:00,→ Quick settings
+2026-03-14 03:03:56.552,mouse_click,Quick settings,19.3,85.7,03:00,btn:left
+2026-03-14 03:04:01.740,idle,Quick settings,13.2,86.1,03:00,gap:5s
+2026-03-14 03:04:09.123,mouse_click,Quick settings,25.2,87.6,03:00,btn:left
+2026-03-14 03:04:14.518,window_switch,Quick settings,23.2,87.5,03:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 03:04:14.518,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,23.2,87.5,03:00,gap:5s
+2026-03-14 03:04:50.261,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.4,86.8,03:00,btn:left
+2026-03-14 03:04:55.300,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.2,86.9,03:00,gap:5s
+2026-03-14 03:05:12.652,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.5,86.6,03:00,btn:left
+2026-03-14 03:05:17.798,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.6,86.7,03:00,gap:5s
+2026-03-14 03:06:12.162,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.3,85.7,03:00,btn:left
+2026-03-14 03:06:17.659,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.2,85.8,03:00,gap:5s
+2026-03-14 03:06:23.466,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.4,85.7,03:00,btn:left
+2026-03-14 03:06:28.873,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,10.4,86.5,03:00,gap:5s
+2026-03-14 03:07:04.544,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.1,86.8,03:00,btn:left
+2026-03-14 03:07:06.667,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,19.5,87.5,03:00,→ JPMorganChase Software Engineering.txt - Notepad
+2026-03-14 03:07:06.667,mouse_click,JPMorganChase Software Engineering.txt - Notepad,19.5,87.5,03:00,btn:left
+2026-03-14 03:07:08.788,window_switch,JPMorganChase Software Engineering.txt - Notepad,20.6,87.5,03:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 03:07:08.788,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,20.6,87.5,03:00,btn:left
+2026-03-14 03:07:14.184,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,11.7,86.0,03:00,gap:5s
+2026-03-14 03:07:14.602,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.4,86.1,03:00,btn:left
+2026-03-14 03:07:19.756,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,18.7,86.6,03:00,→ analysis.py - attention_pro - Visual Studio Code
+2026-03-14 03:07:19.756,idle,analysis.py - attention_pro - Visual Studio Code,18.7,86.6,03:00,gap:5s
+2026-03-14 03:07:20.884,mouse_click,analysis.py - attention_pro - Visual Studio Code,16.4,86.6,03:00,btn:left
+2026-03-14 03:07:26.364,window_switch,analysis.py - attention_pro - Visual Studio Code,13.7,86.3,03:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:07:26.364,idle,dashboard.py - attention_pro - Visual Studio Code,13.7,86.3,03:00,gap:5s
+2026-03-14 03:07:39.909,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.0,85.8,03:00,btn:left
+2026-03-14 03:07:45.224,idle,dashboard.py - attention_pro - Visual Studio Code,6.8,85.9,03:00,gap:5s
+2026-03-14 03:07:46.166,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.1,85.9,03:00,btn:left
+2026-03-14 03:07:51.356,idle,dashboard.py - attention_pro - Visual Studio Code,3.7,85.8,03:00,gap:5s
+2026-03-14 03:07:55.803,mouse_click,dashboard.py - attention_pro - Visual Studio Code,3.9,85.8,03:00,btn:left
+2026-03-14 03:07:57.319,window_switch,dashboard.py - attention_pro - Visual Studio Code,18.8,85.7,03:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 03:07:57.319,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,18.8,85.7,03:00,btn:left
+2026-03-14 03:07:58.665,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,15.1,85.8,03:00,→ JPMorganChase Software Engineering.txt - Notepad
+2026-03-14 03:07:58.665,mouse_click,JPMorganChase Software Engineering.txt - Notepad,15.1,85.8,03:00,btn:left
+2026-03-14 03:08:02.496,window_switch,JPMorganChase Software Engineering.txt - Notepad,12.5,86.0,03:00,→ Task View
+2026-03-14 03:08:02.496,mouse_click,Task View,12.5,86.0,03:00,btn:left
+2026-03-14 03:08:07.542,window_switch,Task View,9.2,85.6,03:00,→ Program Manager
+2026-03-14 03:08:07.542,mouse_click,Program Manager,9.2,85.6,03:00,btn:left
+2026-03-14 03:08:09.073,window_switch,Program Manager,15.2,85.8,03:00,→ Search
+2026-03-14 03:08:09.073,mouse_click,Search,15.2,85.8,03:00,btn:left
+2026-03-14 03:08:12.695,window_switch,Search,7.6,85.5,03:00,→ Start
+2026-03-14 03:08:12.695,mouse_click,Start,7.6,85.5,03:00,btn:left
+2026-03-14 03:28:23.622,window_switch,Start,0.3,84.7,03:00,→ Unknown
+2026-03-14 03:28:23.622,idle,Unknown,0.3,84.7,03:00,gap:1210s
+2026-03-14 03:28:31.413,window_switch,Unknown,2.5,87.4,03:00,→ Search
+2026-03-14 03:28:31.413,keyboard,Search,2.5,87.4,03:00,burst:10
+2026-03-14 03:28:33.162,mouse_click,Search,0.4,86.7,03:00,btn:left
+2026-03-14 03:28:35.570,window_switch,Search,15.8,86.7,03:00,→ Program Manager
+2026-03-14 03:28:35.570,mouse_click,Program Manager,15.8,86.7,03:00,btn:left
+2026-03-14 03:28:38.473,window_switch,Program Manager,23.7,87.0,03:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 03:28:38.473,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,23.7,87.0,03:00,btn:left
+2026-03-14 03:28:43.492,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,24.2,87.1,03:00,gap:5s
+2026-03-14 03:28:44.591,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,15.7,86.9,03:00,btn:left
+2026-03-14 03:28:46.332,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,9.7,87.3,03:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:28:46.332,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.7,87.3,03:00,btn:left
+2026-03-14 03:28:47.720,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.8,87.3,03:00,btn:left
+2026-03-14 03:28:53.174,idle,dashboard.py - attention_pro - Visual Studio Code,8.2,87.1,03:00,gap:5s
+2026-03-14 03:28:54.170,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.1,87.1,03:00,btn:left
+2026-03-14 03:28:56.107,window_switch,dashboard.py - attention_pro - Visual Studio Code,18.9,87.5,03:00,→ Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome
+2026-03-14 03:28:56.107,mouse_click,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,18.9,87.5,03:00,btn:left
+2026-03-14 03:28:57.102,window_switch,Streamlit dashboard deprecation warnings and offline functionality - Claude - Google Chrome,16.0,87.6,03:00,→ New Tab - Google Chrome
+2026-03-14 03:28:57.102,mouse_click,New Tab - Google Chrome,16.0,87.6,03:00,btn:left
+2026-03-14 03:29:04.771,window_switch,New Tab - Google Chrome,12.1,86.8,03:00,→ www.google.com - Google Chrome
+2026-03-14 03:29:04.771,mouse_click,www.google.com - Google Chrome,12.1,86.8,03:00,btn:left
+2026-03-14 03:29:06.421,window_switch,www.google.com - Google Chrome,12.9,86.7,03:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 03:29:06.421,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.9,86.7,03:00,btn:left
+2026-03-14 03:29:07.300,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,19.7,86.8,03:00,btn:left
+2026-03-14 03:29:10.092,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.6,86.6,03:00,btn:left
+2026-03-14 03:29:15.123,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,12.7,86.6,03:00,gap:5s
+2026-03-14 03:30:01.581,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.7,83.8,03:00,btn:left
+2026-03-14 03:30:02.711,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.6,83.9,03:00,→ GitHub Push Commands
+2026-03-14 03:30:02.711,mouse_click,GitHub Push Commands,13.6,83.9,03:00,btn:left
+2026-03-14 03:30:07.178,window_switch,GitHub Push Commands,9.4,84.3,03:00,→ github - Google Search - Google Chrome
+2026-03-14 03:30:07.178,mouse_click,github - Google Search - Google Chrome,9.4,84.3,03:00,btn:left
+2026-03-14 03:30:09.142,window_switch,github - Google Search - Google Chrome,15.0,85.0,03:00,→ New Tab - Google Chrome
+2026-03-14 03:30:09.142,mouse_click,New Tab - Google Chrome,15.0,85.0,03:00,btn:left
+2026-03-14 03:30:10.172,mouse_click,New Tab - Google Chrome,9.9,84.5,03:00,btn:left
+2026-03-14 03:30:15.214,window_switch,New Tab - Google Chrome,13.9,84.8,03:00,→ GitHub - Google Chrome
+2026-03-14 03:30:15.214,idle,GitHub - Google Chrome,13.9,84.8,03:00,gap:5s
+2026-03-14 03:30:27.914,mouse_click,GitHub - Google Chrome,7.0,83.7,03:00,btn:left
+2026-03-14 03:30:29.370,window_switch,GitHub - Google Chrome,9.8,83.8,03:00,→ GitHub Push Commands
+2026-03-14 03:30:29.370,mouse_click,GitHub Push Commands,9.8,83.8,03:00,btn:left
+2026-03-14 03:30:31.738,window_switch,GitHub Push Commands,13.8,83.9,03:00,→ NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge
+2026-03-14 03:30:31.738,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,13.8,83.9,03:00,btn:left
+2026-03-14 03:30:37.049,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,6.3,83.8,03:00,gap:5s
+2026-03-14 03:30:40.005,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.2,83.7,03:00,btn:left
+2026-03-14 03:30:45.239,idle,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,8.9,83.8,03:00,gap:5s
+2026-03-14 03:31:00.319,mouse_click,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.1,83.1,03:00,btn:left
+2026-03-14 03:31:05.060,window_switch,NeuroFocus Attention Intelligence - Personal - Microsoft​ Edge,7.9,83.1,03:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:31:05.060,mouse_click,dashboard.py - attention_pro - Visual Studio Code,7.9,83.1,03:00,btn:left
+2026-03-14 03:31:06.807,window_switch,dashboard.py - attention_pro - Visual Studio Code,11.4,83.0,03:00,→ GitHub Push Commands
+2026-03-14 03:31:06.807,mouse_click,GitHub Push Commands,11.4,83.0,03:00,btn:left
+2026-03-14 03:31:09.322,mouse_click,GitHub Push Commands,7.4,83.1,03:00,btn:left
+2026-03-14 03:31:11.508,window_switch,GitHub Push Commands,13.5,83.0,03:00,→ ChatGPT
+2026-03-14 03:31:11.508,mouse_click,ChatGPT,13.5,83.0,03:00,btn:left
+2026-03-14 03:31:13.584,keyboard,ChatGPT,11.4,83.0,03:00,burst:10
+2026-03-14 03:31:16.423,keyboard,ChatGPT,5.5,83.0,03:00,burst:10
+2026-03-14 03:31:20.520,keyboard,ChatGPT,6.1,83.0,03:00,burst:10
+2026-03-14 03:31:22.796,keyboard,ChatGPT,5.2,82.9,03:00,burst:10
+2026-03-14 03:31:25.042,keyboard,ChatGPT,6.4,82.7,03:00,burst:10
+2026-03-14 03:31:27.740,keyboard,ChatGPT,7.3,82.7,03:00,burst:10
+2026-03-14 03:31:33.767,keyboard,ChatGPT,4.8,82.7,03:00,burst:10
+2026-03-14 03:31:38.448,keyboard,ChatGPT,6.9,82.9,03:00,burst:10
+2026-03-14 03:31:44.718,idle,ChatGPT,6.6,82.9,03:00,gap:5s
+2026-03-14 03:31:53.183,keyboard,ChatGPT,3.6,82.9,03:00,burst:10
+2026-03-14 03:32:03.544,window_switch,ChatGPT,7.0,83.5,03:00,→ Push Project to GitHub
+2026-03-14 03:32:03.544,idle,Push Project to GitHub,7.0,83.5,03:00,gap:5s
+2026-03-14 03:32:11.293,mouse_click,Push Project to GitHub,6.4,84.1,03:00,btn:left
+2026-03-14 03:32:12.559,mouse_click,Push Project to GitHub,7.5,84.2,03:00,btn:left
+2026-03-14 03:32:14.399,scroll,Push Project to GitHub,8.2,84.2,03:00,ticks:6
+2026-03-14 03:32:14.462,scroll,Push Project to GitHub,8.6,84.2,03:00,ticks:5
+2026-03-14 03:32:14.524,scroll,Push Project to GitHub,14.3,84.2,03:00,ticks:5
+2026-03-14 03:32:14.605,scroll,Push Project to GitHub,14.0,84.2,03:00,ticks:5
+2026-03-14 03:32:15.573,mouse_click,Push Project to GitHub,7.7,84.3,03:00,btn:left
+2026-03-14 03:32:22.045,keyboard,Push Project to GitHub,7.5,84.1,03:00,burst:10
+2026-03-14 03:32:28.126,keyboard,Push Project to GitHub,6.7,83.8,03:00,burst:10
+2026-03-14 03:32:30.139,keyboard,Push Project to GitHub,7.9,83.9,03:00,burst:10
+2026-03-14 03:32:32.509,keyboard,Push Project to GitHub,7.7,83.9,03:00,burst:10
+2026-03-14 03:32:39.551,keyboard,Push Project to GitHub,5.5,83.9,03:00,burst:10
+2026-03-14 03:32:43.672,keyboard,Push Project to GitHub,5.7,83.8,03:00,burst:10
+2026-03-14 03:32:45.916,keyboard,Push Project to GitHub,6.9,83.7,03:00,burst:10
+2026-03-14 03:32:48.082,keyboard,Push Project to GitHub,8.2,83.8,03:00,burst:10
+2026-03-14 03:32:50.492,keyboard,Push Project to GitHub,8.1,83.7,03:00,burst:10
+2026-03-14 03:32:54.053,keyboard,Push Project to GitHub,6.6,83.9,03:00,burst:10
+2026-03-14 03:32:56.411,keyboard,Push Project to GitHub,10.2,83.9,03:00,burst:10
+2026-03-14 03:32:59.754,keyboard,Push Project to GitHub,5.6,83.7,03:00,burst:10
+2026-03-14 03:33:02.709,keyboard,Push Project to GitHub,6.2,83.7,03:00,burst:10
+2026-03-14 03:33:11.057,keyboard,Push Project to GitHub,3.2,83.6,03:00,burst:10
+2026-03-14 03:33:13.745,keyboard,Push Project to GitHub,6.5,83.5,03:00,burst:10
+2026-03-14 03:33:19.457,mouse_click,Push Project to GitHub,5.7,83.6,03:00,btn:left
+2026-03-14 03:33:24.621,idle,Push Project to GitHub,6.2,83.6,03:00,gap:5s
+2026-03-14 03:33:30.711,scroll,Push Project to GitHub,10.5,83.7,03:00,ticks:6
+2026-03-14 03:33:30.746,scroll,Push Project to GitHub,59.1,83.7,03:00,ticks:5
+2026-03-14 03:33:30.780,scroll,Push Project to GitHub,40.0,83.7,03:00,ticks:5
+2026-03-14 03:33:30.822,scroll,Push Project to GitHub,34.2,83.7,03:00,ticks:5
+2026-03-14 03:33:33.559,scroll,Push Project to GitHub,13.9,83.8,03:00,ticks:5
+2026-03-14 03:33:33.662,scroll,Push Project to GitHub,8.0,83.8,03:00,ticks:5
+2026-03-14 03:33:33.697,scroll,Push Project to GitHub,20.5,83.8,03:00,ticks:5
+2026-03-14 03:33:33.731,scroll,Push Project to GitHub,9.1,83.8,03:00,ticks:5
+2026-03-14 03:33:33.768,scroll,Push Project to GitHub,15.6,83.8,03:00,ticks:5
+2026-03-14 03:33:38.803,idle,Push Project to GitHub,11.6,83.9,03:00,gap:5s
+2026-03-14 03:33:38.837,scroll,Push Project to GitHub,9.3,84.0,03:00,ticks:5
+2026-03-14 03:33:38.886,scroll,Push Project to GitHub,21.4,84.0,03:00,ticks:5
+2026-03-14 03:33:39.067,scroll,Push Project to GitHub,11.7,84.1,03:00,ticks:5
+2026-03-14 03:33:39.107,scroll,Push Project to GitHub,15.0,84.1,03:00,ticks:5
+2026-03-14 03:33:39.191,scroll,Push Project to GitHub,10.9,84.2,03:00,ticks:5
+2026-03-14 03:33:40.451,scroll,Push Project to GitHub,7.0,84.4,03:00,ticks:5
+2026-03-14 03:33:40.486,scroll,Push Project to GitHub,7.5,84.4,03:00,ticks:5
+2026-03-14 03:33:40.521,scroll,Push Project to GitHub,12.5,84.4,03:00,ticks:5
+2026-03-14 03:33:40.556,scroll,Push Project to GitHub,21.2,84.4,03:00,ticks:5
+2026-03-14 03:33:45.369,mouse_click,Push Project to GitHub,6.3,83.9,03:00,btn:left
+2026-03-14 03:33:50.531,window_switch,Push Project to GitHub,6.8,84.1,03:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:33:50.534,window_switch,Push Project to GitHub,6.5,84.1,03:00,→ dashboard.py - attention_pro - Visual Studio Code
+2026-03-14 03:33:50.534,mouse_click,dashboard.py - attention_pro - Visual Studio Code,6.5,84.1,03:00,btn:left
+2026-03-14 03:33:50.531,idle,dashboard.py - attention_pro - Visual Studio Code,6.8,84.1,03:00,gap:5s
+2026-03-14 03:33:52.024,mouse_click,dashboard.py - attention_pro - Visual Studio Code,9.3,84.1,03:00,btn:left
+2026-03-14 03:33:53.133,window_switch,dashboard.py - attention_pro - Visual Studio Code,16.8,84.2,03:00,→ analysis.py - attention_pro - Visual Studio Code
+2026-03-14 03:33:53.133,mouse_click,analysis.py - attention_pro - Visual Studio Code,16.8,84.2,03:00,btn:left
+2026-03-14 03:33:55.013,window_switch,analysis.py - attention_pro - Visual Studio Code,9.8,84.2,03:00,→ attention_report.json - attention_pro - Visual Studio Code
+2026-03-14 03:33:55.013,mouse_click,attention_report.json - attention_pro - Visual Studio Code,9.8,84.2,03:00,btn:left
+2026-03-14 03:33:56.753,mouse_click,attention_report.json - attention_pro - Visual Studio Code,9.5,84.2,03:00,btn:left
+2026-03-14 03:33:58.814,window_switch,attention_report.json - attention_pro - Visual Studio Code,13.3,84.6,03:00,→ Push Project to GitHub
+2026-03-14 03:33:58.814,mouse_click,Push Project to GitHub,13.3,84.6,03:00,btn:left
+2026-03-14 03:34:01.405,window_switch,Push Project to GitHub,8.6,84.7,03:00,→ attention_pro - File Explorer
+2026-03-14 03:34:01.405,mouse_click,attention_pro - File Explorer,8.6,84.7,03:00,btn:left
+2026-03-14 03:34:02.473,window_switch,attention_pro - File Explorer,7.8,84.8,03:00,→ openthisss - File Explorer
+2026-03-14 03:34:02.473,mouse_click,openthisss - File Explorer,7.8,84.8,03:00,btn:left
+2026-03-14 03:34:04.986,window_switch,openthisss - File Explorer,8.4,84.4,03:00,→ Downloads - File Explorer
+2026-03-14 03:34:04.986,mouse_click,Downloads - File Explorer,8.4,84.4,03:00,btn:left
+2026-03-14 03:34:07.395,mouse_click,Downloads - File Explorer,3.9,84.1,03:00,btn:left
+2026-03-14 03:34:09.365,mouse_click,Downloads - File Explorer,3.2,84.0,03:00,btn:right
+2026-03-14 03:34:12.996,mouse_click,Downloads - File Explorer,8.7,84.1,03:00,btn:left
